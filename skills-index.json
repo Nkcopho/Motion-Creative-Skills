@@ -1,0 +1,209 @@
+[
+  {
+    "name": "forensic",
+    "description": "Analyse visual or video references with measurable evidence; use for deep reference breakdowns, not new creative production.",
+    "file": "skills/forensic/SKILL.md",
+    "outputs": [
+      "object-registry.json",
+      "scene-ledger.json",
+      "evidence.csv",
+      "analysis.md",
+      "uncertainty-audit.md"
+    ]
+  },
+  {
+    "name": "object-anatomy",
+    "description": "Decompose individual objects into geometry, components and physical relationships. Use for detailed asset specifications.",
+    "file": "skills/object-anatomy/SKILL.md",
+    "outputs": [
+      "object-registry.json",
+      "anatomy.md",
+      "component diagrams or annotated evidence"
+    ]
+  },
+  {
+    "name": "material-study",
+    "description": "Investigate or specify material, texture, lighting response and optical relationships for reference or original worlds.",
+    "file": "skills/material-study/SKILL.md",
+    "outputs": [
+      "materials.json",
+      "optical-tests.md",
+      "texture and shadow evidence"
+    ]
+  },
+  {
+    "name": "motion-study",
+    "description": "Measure object motion, temporal events and deformation in footage. Use for analysis rather than new choreography.",
+    "file": "skills/motion-study/SKILL.md",
+    "outputs": [
+      "motion.json",
+      "trajectories.csv",
+      "tracking-audit.md"
+    ]
+  },
+  {
+    "name": "camera-study",
+    "description": "Analyse or design shot framing, camera movement, focus and projection. Use when spatial readability or camera behaviour is the main task.",
+    "file": "skills/camera-study/SKILL.md",
+    "outputs": [
+      "camera-plan.json",
+      "camera-study.md",
+      "landmark measurements"
+    ]
+  },
+  {
+    "name": "visual-intelligence",
+    "description": "Extract transferable spatial, material and semantic design rules from reference research.",
+    "file": "skills/visual-intelligence/SKILL.md",
+    "outputs": [
+      "principles.json",
+      "visual-system.md",
+      "exception-ledger.md"
+    ]
+  },
+  {
+    "name": "taste",
+    "description": "Develop creative judgment through counterfactual art direction and structured review of approved and rejected work.",
+    "file": "skills/taste/SKILL.md",
+    "outputs": [
+      "taste-records.json",
+      "counterfactuals.md"
+    ]
+  },
+  {
+    "name": "creative-director",
+    "description": "Orchestrate end-to-end creative work from brief through research, art direction, production and review. Use for multi-stage projects.",
+    "file": "skills/creative-director/SKILL.md",
+    "outputs": [
+      "brief.json",
+      "run.json",
+      "direction.md",
+      "scene specs",
+      "review.json",
+      "delivery manifest"
+    ]
+  },
+  {
+    "name": "worldbuild",
+    "description": "Design a coherent product-specific 3D world, spatial architecture and asset system before implementation.",
+    "file": "skills/worldbuild/SKILL.md",
+    "outputs": [
+      "world-bible.md",
+      "object-registry.json",
+      "spatial-layout.json",
+      "scene concepts"
+    ]
+  },
+  {
+    "name": "composition",
+    "description": "Design or audit spatial layout, visual weight, negative space and attention across shots.",
+    "file": "skills/composition/SKILL.md",
+    "outputs": [
+      "composition.md",
+      "spatial-layout.json",
+      "annotated frames or layouts"
+    ]
+  },
+  {
+    "name": "brand-translate",
+    "description": "Translate reference design intelligence into an original brand system; avoid superficial reskinning.",
+    "file": "skills/brand-translate/SKILL.md",
+    "outputs": [
+      "brand-transfer.md",
+      "role-map.json",
+      "art-direction tokens"
+    ]
+  },
+  {
+    "name": "storyboard",
+    "description": "Create conversion-led or explanatory narrative beats, shot lists and storyboards.",
+    "file": "skills/storyboard/SKILL.md",
+    "outputs": [
+      "storyboard.md",
+      "scene-ledger.json",
+      "animatic plan"
+    ]
+  },
+  {
+    "name": "art-direct",
+    "description": "Set creative direction, emotional tone and aesthetic constraints for a project.",
+    "file": "skills/art-direct/SKILL.md",
+    "outputs": [
+      "direction.md",
+      "design-system.md",
+      "decision-log.json"
+    ]
+  },
+  {
+    "name": "choreography",
+    "description": "Design coordinated camera, object and interaction animation with explicit timing dependencies.",
+    "file": "skills/choreography/SKILL.md",
+    "outputs": [
+      "motion.json",
+      "dependency graph",
+      "choreography.md"
+    ]
+  },
+  {
+    "name": "scene-spec",
+    "description": "Turn approved art direction into renderer-agnostic, implementable scene and asset specifications.",
+    "file": "skills/scene-spec/SKILL.md",
+    "outputs": [
+      "scene.json",
+      "asset-list.md",
+      "implementation-plan.md"
+    ]
+  },
+  {
+    "name": "threejs",
+    "description": "Implement and test an approved web-based Three.js creative scene or animation.",
+    "file": "skills/threejs/SKILL.md",
+    "outputs": [
+      "working project",
+      "render captures",
+      "test log",
+      "performance notes"
+    ]
+  },
+  {
+    "name": "blender",
+    "description": "Implement or plan a Blender scene using approved geometry, materials, cameras and animation specifications.",
+    "file": "skills/blender/SKILL.md",
+    "outputs": [
+      "blend or generation script",
+      "render stills/clip if possible",
+      "test log"
+    ]
+  },
+  {
+    "name": "critique",
+    "description": "Critique actual creative outputs against an agreed brief and evidence-based quality gates.",
+    "file": "skills/critique/SKILL.md",
+    "outputs": [
+      "review.json",
+      "critique.md",
+      "prioritized fixes"
+    ]
+  },
+  {
+    "name": "fidelity",
+    "description": "Validate source-to-render or role-to-deliverable fidelity using matched evidence and explicit tolerances.",
+    "file": "skills/fidelity/SKILL.md",
+    "outputs": [
+      "fidelity-report.md",
+      "review.json",
+      "comparison metrics and contact sheets"
+    ]
+  },
+  {
+    "name": "refine",
+    "description": "Execute bounded, evidence-driven creative refinement against a critique report.",
+    "file": "skills/refine/SKILL.md",
+    "outputs": [
+      "refinement-log.json",
+      "revised artifacts",
+      "review.json",
+      "before/after evidence"
+    ]
+  }
+]

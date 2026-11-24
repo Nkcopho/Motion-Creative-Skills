@@ -1,0 +1,4 @@
+frame,region,dx_px,dy_px,correlation
+540,upper-left,6,-9,0.67
+540,central-left,5,-9,0.74
+540,upper-central,5,-9,0.73

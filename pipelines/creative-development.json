@@ -1,0 +1,49 @@
+{
+  "name": "creative-development",
+  "stages": [
+    {
+      "id": "direction",
+      "skills": [
+        "art-direct",
+        "brand-translate"
+      ],
+      "depends_on": [],
+      "rule": "Inspect output and evidence before marking pass."
+    },
+    {
+      "id": "world",
+      "skills": [
+        "worldbuild",
+        "composition"
+      ],
+      "depends_on": [
+        "direction"
+      ],
+      "rule": "Inspect output and evidence before marking pass."
+    },
+    {
+      "id": "narrative",
+      "skills": [
+        "storyboard",
+        "choreography",
+        "camera-study"
+      ],
+      "depends_on": [
+        "world"
+      ],
+      "rule": "Inspect output and evidence before marking pass."
+    },
+    {
+      "id": "specification",
+      "skills": [
+        "object-anatomy",
+        "material-study",
+        "scene-spec"
+      ],
+      "depends_on": [
+        "narrative"
+      ],
+      "rule": "Inspect output and evidence before marking pass."
+    }
+  ]
+}

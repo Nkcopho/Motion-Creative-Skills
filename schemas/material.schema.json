@@ -1,0 +1,94 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "material",
+  "type": "object",
+  "properties": {
+    "materials": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "id",
+          "role",
+          "family",
+          "observed",
+          "proposed_parameters",
+          "tests"
+        ],
+        "properties": {
+          "id": {
+            "type": "string",
+            "minLength": 1
+          },
+          "role": {
+            "type": "string",
+            "minLength": 1
+          },
+          "family": {
+            "type": "string",
+            "minLength": 1
+          },
+          "observed": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "required": [
+                "class",
+                "source",
+                "locator",
+                "method",
+                "limitations"
+              ],
+              "properties": {
+                "class": {
+                  "enum": [
+                    "VERIFIED",
+                    "MEASURED",
+                    "ESTIMATED",
+                    "INFERRED",
+                    "PROPOSED",
+                    "UNKNOWN"
+                  ]
+                },
+                "source": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "locator": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "method": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "limitations": {
+                  "type": "string"
+                },
+                "units": {
+                  "type": "string"
+                },
+                "value": {},
+                "uncertainty": {}
+              }
+            }
+          },
+          "proposed_parameters": {
+            "type": "object"
+          },
+          "tests": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "minLength": 1
+            }
+          }
+        }
+      }
+    }
+  },
+  "required": [
+    "materials"
+  ],
+  "additionalProperties": true
+}

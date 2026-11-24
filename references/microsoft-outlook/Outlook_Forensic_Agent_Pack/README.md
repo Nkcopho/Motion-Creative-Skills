@@ -1,0 +1,2 @@
+# Forensic World-Building Intelligence Pack v1.0
+Begin with [AGENTS.md](AGENTS.md), then [00_START/README.md](00_START/README.md). Includes source video, 197 frames, 20 crops, 10 contact sheets, 265 registered entries, 17 scene ranges, material and behaviour registries, measurement data, seven-pass consolidated analysis, agent prompt, reproducibility scripts and QA. The subjective 95% conceptual estimate is not a validated reconstruction score. Read the evidence audit before use.

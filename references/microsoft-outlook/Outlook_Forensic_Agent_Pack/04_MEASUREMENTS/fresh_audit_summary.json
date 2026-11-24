@@ -1,0 +1,9 @@
+{
+  "decoded_frames": 1913,
+  "exported_frames": 197,
+  "crops": 20,
+  "near_identical_luma_pairs_lt_0.1": 631,
+  "exact_identical_downsampled_luma_pairs": 0,
+  "colour_samples_rechecked": 30,
+  "max_rgb_distance": 0.0
+}

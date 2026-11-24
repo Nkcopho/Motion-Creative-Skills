@@ -1,0 +1,17 @@
+id,behaviour,objects_or_shot,start_frame_approx,end_frame_approx,rule
+B01,Accelerating entry,OP-003,0,54,proportional enlargement; portal content reveal
+B02,Centred environment scaling,ENV-001,165,216,"deceleration, nearly no roll"
+B03,Delayed secondary translation,DC-004,195,240,"left/up, decelerates, no large reversal"
+B04,Staggered population,AV-001..005 / CL / CR,165,240,"different entrance times, preserve local alignment"
+B05,Primitive to functional,ML / FN,242,419,body then symbol; selection marker
+B06,Responsive ribbon,RB-012,420,600,"width stable corrected, height collapses 58%"
+B07,Flexible layering,EM-001..008,607,707,"curved sheets with gaps, partial occlusion"
+B08,Information reflow,FN-014/015,708,845,normalised width near constant early; height and content change
+B09,Optical cursor,CUR-001,,,"orientation, translucent interior, rim highlights"
+B10,Reaction wave,RX,1290,1311,staggered overshoot and settle
+B11,Pin relocation,FN-021,1380,1410,collapse/reflow/destination assembly
+B12,Calendar population,FN-024,1440,1470,"multiple entry directions, stable grid"
+B13,Task completion,TK,1698,1712,blue confirmation then line draw
+B14,Dark reveal,S09,1106,1154,dark cut then foreground bands expose UI
+B15,Exit occlusion,S16,1780,1830,large foreground forms reveal portal
+B16,Organic punctuation,OUT-001,1848,1872,warm accent moves relative to switch

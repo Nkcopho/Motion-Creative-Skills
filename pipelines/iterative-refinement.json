@@ -1,0 +1,32 @@
+{
+  "name": "iterative-refinement",
+  "stages": [
+    {
+      "id": "baseline",
+      "skills": [
+        "critique",
+        "fidelity"
+      ],
+      "depends_on": [],
+      "rule": "Inspect output and evidence before marking pass."
+    },
+    {
+      "id": "refine",
+      "skills": [
+        "refine"
+      ],
+      "depends_on": [
+        "baseline"
+      ],
+      "rule": "Inspect output and evidence before marking pass."
+    },
+    {
+      "id": "approval",
+      "skills": [],
+      "depends_on": [
+        "refine"
+      ],
+      "rule": "External human approval only."
+    }
+  ]
+}

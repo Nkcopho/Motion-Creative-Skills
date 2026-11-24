@@ -1,0 +1,11 @@
+frame,seconds,blue_width_px,blue_height_px,status
+9,0.3,245,122,M inherited HSV segmentation
+15,0.5,279,140,M inherited HSV segmentation
+21,0.7,310,156,M inherited HSV segmentation
+27,0.9,354,176,M inherited HSV segmentation
+30,1,376,188,M inherited HSV segmentation
+36,1.2,452,226,M inherited HSV segmentation
+42,1.4,542,271,M inherited HSV segmentation
+45,1.5,646,323,M inherited HSV segmentation
+48,1.6,802,400,M inherited HSV segmentation
+51,1.7,966,482,M inherited HSV segmentation

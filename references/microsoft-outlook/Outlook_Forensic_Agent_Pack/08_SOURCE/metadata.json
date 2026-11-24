@@ -1,0 +1,15 @@
+{
+  "codec_name": "h264",
+  "width": 1328,
+  "height": 744,
+  "pix_fmt": "yuv420p",
+  "r_frame_rate": "30/1",
+  "avg_frame_rate": "30/1",
+  "duration": "63.766633",
+  "nb_frames": "1913",
+  "sha256": "7778175a56ec39ec3f5b4d252998b64bace12df1a34a7ce38db7aabae39d08a9",
+  "source_type": "compressed screen recording",
+  "frame_indexing": "zero-based decoded frames",
+  "duplicate_uploads": "Both provided MP4 uploads are byte-identical; one included.",
+  "score": "95% subjective conceptual understanding; not measured coverage or render fidelity"
+}

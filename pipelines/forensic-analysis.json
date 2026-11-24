@@ -1,0 +1,37 @@
+{
+  "name": "forensic-analysis",
+  "stages": [
+    {
+      "id": "source",
+      "skills": [
+        "forensic"
+      ],
+      "depends_on": [],
+      "rule": "Inspect output and evidence before marking pass."
+    },
+    {
+      "id": "detail",
+      "skills": [
+        "object-anatomy",
+        "material-study",
+        "motion-study",
+        "camera-study"
+      ],
+      "depends_on": [
+        "source"
+      ],
+      "rule": "Inspect output and evidence before marking pass."
+    },
+    {
+      "id": "transfer",
+      "skills": [
+        "visual-intelligence",
+        "taste"
+      ],
+      "depends_on": [
+        "detail"
+      ],
+      "rule": "Inspect output and evidence before marking pass."
+    }
+  ]
+}

@@ -1,0 +1,116 @@
+{
+  "version": "1.0",
+  "criteria": [
+    {
+      "id": "meaning",
+      "weight": 15,
+      "label": "Product meaning and narrative"
+    },
+    {
+      "id": "spatial",
+      "weight": 15,
+      "label": "Spatial hierarchy and composition"
+    },
+    {
+      "id": "geometry",
+      "weight": 12,
+      "label": "Object roles and construction"
+    },
+    {
+      "id": "optics",
+      "weight": 12,
+      "label": "Materials and optics"
+    },
+    {
+      "id": "scale",
+      "weight": 8,
+      "label": "Microdetail and scale"
+    },
+    {
+      "id": "camera",
+      "weight": 8,
+      "label": "Camera and focus"
+    },
+    {
+      "id": "interaction",
+      "weight": 10,
+      "label": "Semantic interaction/reflow"
+    },
+    {
+      "id": "motion",
+      "weight": 10,
+      "label": "Collective choreography"
+    },
+    {
+      "id": "emotion",
+      "weight": 5,
+      "label": "Emotional tone and economy"
+    },
+    {
+      "id": "technical",
+      "weight": 5,
+      "label": "Consistency and technical QA"
+    }
+  ],
+  "gates": [
+    {
+      "id": "G01",
+      "label": "Strategic relevance",
+      "critical": true
+    },
+    {
+      "id": "G02",
+      "label": "Spatial credibility",
+      "critical": true
+    },
+    {
+      "id": "G03",
+      "label": "Object construction",
+      "critical": true
+    },
+    {
+      "id": "G04",
+      "label": "Material authenticity",
+      "critical": true
+    },
+    {
+      "id": "G05",
+      "label": "Composition",
+      "critical": true
+    },
+    {
+      "id": "G06",
+      "label": "Motion",
+      "critical": true
+    },
+    {
+      "id": "G07",
+      "label": "Brand originality",
+      "critical": true
+    },
+    {
+      "id": "G08",
+      "label": "Technical validation",
+      "critical": true
+    },
+    {
+      "id": "G09",
+      "label": "Independent critique",
+      "critical": true
+    },
+    {
+      "id": "G10",
+      "label": "Human approval",
+      "critical": true
+    }
+  ],
+  "scale": {
+    "0": "absent or fundamentally failed",
+    "1": "major failure",
+    "2": "partial, substantial weaknesses",
+    "3": "competent but visibly incomplete",
+    "4": "strong, minor issues",
+    "5": "exceptional, evidenced"
+  },
+  "policy": "No score when a criterion is untested; weighted observed score only, coverage separate. Human approval must be independently provided."
+}

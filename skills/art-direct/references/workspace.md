@@ -1,0 +1,1 @@
+Shared root: starting in the directory containing this file, go up three directory levels to the suite root (the directory containing AGENTS.md, skills/, knowledge/, and scripts/). Installed copies replace this note with the exact absolute root. If the suite moves, rerun the installer.

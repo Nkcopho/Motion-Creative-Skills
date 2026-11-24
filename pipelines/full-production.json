@@ -1,0 +1,101 @@
+{
+  "name": "full-production",
+  "stages": [
+    {
+      "id": "discovery",
+      "skills": [
+        "art-direct"
+      ],
+      "depends_on": [],
+      "rule": "Inspect output and evidence before marking pass."
+    },
+    {
+      "id": "research",
+      "skills": [
+        "forensic",
+        "visual-intelligence",
+        "taste"
+      ],
+      "depends_on": [
+        "discovery"
+      ],
+      "rule": "Inspect output and evidence before marking pass."
+    },
+    {
+      "id": "direction",
+      "skills": [
+        "brand-translate",
+        "worldbuild",
+        "composition"
+      ],
+      "depends_on": [
+        "research"
+      ],
+      "rule": "Inspect output and evidence before marking pass."
+    },
+    {
+      "id": "narrative",
+      "skills": [
+        "storyboard",
+        "camera-study",
+        "choreography"
+      ],
+      "depends_on": [
+        "direction"
+      ],
+      "rule": "Inspect output and evidence before marking pass."
+    },
+    {
+      "id": "technical",
+      "skills": [
+        "object-anatomy",
+        "material-study",
+        "scene-spec"
+      ],
+      "depends_on": [
+        "narrative"
+      ],
+      "rule": "Inspect output and evidence before marking pass."
+    },
+    {
+      "id": "production",
+      "skills": [
+        "threejs",
+        "blender"
+      ],
+      "depends_on": [
+        "technical"
+      ],
+      "rule": "Select one renderer only; explicit implementation authorization required."
+    },
+    {
+      "id": "review",
+      "skills": [
+        "critique",
+        "fidelity"
+      ],
+      "depends_on": [
+        "production"
+      ],
+      "rule": "Inspect output and evidence before marking pass."
+    },
+    {
+      "id": "refinement",
+      "skills": [
+        "refine"
+      ],
+      "depends_on": [
+        "review"
+      ],
+      "rule": "Inspect output and evidence before marking pass."
+    },
+    {
+      "id": "approval",
+      "skills": [],
+      "depends_on": [
+        "refinement"
+      ],
+      "rule": "External human approval only."
+    }
+  ]
+}

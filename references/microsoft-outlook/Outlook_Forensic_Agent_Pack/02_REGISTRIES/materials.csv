@@ -1,0 +1,10 @@
+id,family,observed_appearance,proposed_roughness_min,proposed_roughness_max,proposed_metalness_min,proposed_metalness_max,proposed_transmission_min,proposed_transmission_max,parameter_status,role
+MAT-01,White functional polymer,"uniform, low apparent texture, cool illumination",0.4,0.6,0,0,0,0,P,UI legibility
+MAT-02,Satin blue polymer,curvature-dependent highlights,0.25,0.4,0,0,0,0,P,structured colour
+MAT-03,Deep blue glossy shell,"bright edges, dark interior",0.12,0.25,0,0.1,0,0,P,portal architecture
+MAT-04,Translucent cyan rail,"directional chromatic interaction, edge",0.1,0.3,0,0,0.45,0.85,P,optical architecture
+MAT-05,Frosted cyan cube,"local colour transfer, varied opacity",0.25,0.45,0,0,0.4,0.75,P,optical contrast
+MAT-06,Flexible pale sheet,"soft curvature, layered shadow",0.55,0.8,0,0,0,0.1,P,physical metaphor
+MAT-07,Charcoal UI,neutral matte readability,0.45,0.7,0,0,0,0,P,dark UI
+MAT-08,Paperclip wire,thin reflective/translucent-looking,0.12,0.3,,,,,P,familiar scale
+MAT-09,Textured sphere,"directional repeating microtexture, satin shading",0.3,0.5,0,0,0,0,P,tactile contrast

@@ -1,0 +1,266 @@
+id,name,reference_frame,bounds_xyxy,geometry,material,behavior,visual_role,evidence,notes
+OP-001,Ground,0,"[0, 0, 1328, 744]",continuous pale background,cool pale diffuse,stationary/reframed,negative space,V,
+OP-002,Try the New Outlook text,0,"[40, 351, 794, 435]",letter group with shallow-looking depth,dark charcoal,leaves and returns through reframing,CTA,E,
+OP-003,Switch outer housing,0,"[849, 324, 1088, 444]","capsule, width:height ~2:1",grey then saturated blue,accelerating proportional enlargement,portal metaphor,E,
+OP-004,Recessed switch face,0,"[856, 330, 1081, 437]",inset capsule,grey then blue,internal world becomes visible,optical portal,E,
+OP-005,Thumb,0,"[980, 346, 1055, 421]",circular shallow body,pale white,already right aligned initially; no confirmed left-to-right travel,activation identity,E,
+OP-006,Text shadow,0,,diffuse projected shadow,cool grey,follows text,depth,E,
+OP-007,Housing shadow,0,,soft offset shadow,cool grey,follows housing,depth,E,
+OP-008,Expanding capsule rings,0,,low contrast nested outlines,pale blue grey,expand during approach,anticipate tunnel,E,
+ENV-001,Ground plane,213,"[0, 0, 1328, 744]","continuous planar-looking surface, no horizon",pale lavender-grey/cool white,camera-reactive,spatial reference,V,
+ENV-002,Grid,213,,fine primary cells/subdivisions/crosses,low contrast blue-grey,scale-dependent visibility,precision,V,
+ENV-003,Local illumination,213,,soft directional colour fields,cyan optical effect,changes with material and framing,optical depth,E,Mechanism unknown.
+AR-001,Main platform,213,"[0, 0, 568, 225]",broad shallow platform with curved edge,pale cyan-grey,mostly camera-reactive,architectural hierarchy,E,frame clipped
+AR-002,Upper translucent pathway,213,"[48, 18, 286, 112]",broad rounded strip,translucent cyan,mostly camera-reactive,architectural hierarchy,E,rounded termination
+AR-003,Secondary pathway,213,"[0, 103, 190, 143]",narrow strip with rounded end,blue,mostly camera-reactive,architectural hierarchy,E,frame clipped
+AR-004,Blue bead,213,"[51, 28, 84, 62]",spherical,"dark blue, specular highlights",mostly camera-reactive,architectural hierarchy,E,small rounded accent
+AR-005,Platform lower edge,213,,thin contour,dark cyan,mostly camera-reactive,architectural hierarchy,E,depth boundary
+AR-006,Pixel mosaic,213,"[0, 185, 153, 256]",staggered square/rectangular/round pieces,white/cyan/blue/lavender,mostly camera-reactive,architectural hierarchy,E,"partially occluded, approx 20+ pieces"
+AR-007,Upper deep-blue ribbon,213,"[962, 0, 1328, 64]",broad ribbon,deep blue,mostly camera-reactive,architectural hierarchy,E,clipped
+AR-008,Main bent ribbon,213,"[798, 0, 1328, 139]",curved broad path,blue,mostly camera-reactive,architectural hierarchy,E,path bounds approximate
+AR-009,Stepped rail,213,"[595, 0, 867, 70]",stepped curving path,dark-edge blue,mostly camera-reactive,architectural hierarchy,E,clipped
+AR-010,Short horizontal bar,213,"[610, 15, 727, 35]",bar,blue,mostly camera-reactive,architectural hierarchy,E,static
+AR-011,First capsule insert,213,"[647, 34, 706, 53]",capsule,blue,mostly camera-reactive,architectural hierarchy,E,static
+AR-012,Pale-blue capsule,213,"[924, 56, 1026, 74]",capsule,pale blue,mostly camera-reactive,architectural hierarchy,E,static
+AR-013,Overlapping cyan capsule,213,"[874, 69, 969, 88]",capsule,cyan,mostly camera-reactive,architectural hierarchy,E,overlap
+AR-014,Long central rail,213,"[760, 95, 1073, 114]",thin bar,blue,mostly camera-reactive,architectural hierarchy,E,static
+AR-015,Raised right capsule,213,"[1049, 73, 1149, 92]",capsule,blue,mostly camera-reactive,architectural hierarchy,E,raised
+AR-016,Pale companion capsule,213,"[1022, 86, 1164, 106]",capsule,pale blue,mostly camera-reactive,architectural hierarchy,E,overlap
+AR-017,Lower curved rail,213,"[1012, 100, 1215, 139]",curving strip,pale blue,mostly camera-reactive,architectural hierarchy,E,static
+AR-018,Small blue oval,213,"[872, 107, 904, 124]",oval,deep blue,mostly camera-reactive,architectural hierarchy,E,static
+ST-001,Outer tray,213,"[302, 7, 568, 221]",rounded rectangular enclosure,pale cyan-grey,largely stable after assembly,familiar physical scale and organised workspace,E,
+ST-002,Left recess,213,"[311, 25, 403, 193]",long rounded cavity,cyan illuminated,largely stable after assembly,familiar physical scale and organised workspace,E,
+ST-003,Divider,213,,raised vertical wall,pale,largely stable after assembly,familiar physical scale and organised workspace,E,
+ST-004,Perforated plate,213,"[392, 10, 549, 183]",rounded slab with holes,white,largely stable after assembly,familiar physical scale and organised workspace,E,Rod placement and exact hole count unknown.
+ST-005,Upper recess pair,213,,circular openings,shaded pale,largely stable after assembly,familiar physical scale and organised workspace,E,
+ST-006,Middle recesses,213,,circular openings,shaded pale,largely stable after assembly,familiar physical scale and organised workspace,E,
+ST-007,Lower recesses,213,,circular openings partly occluded,shaded pale,largely stable after assembly,familiar physical scale and organised workspace,E,
+ST-008,Dark rod,213,"[500, 22, 532, 122]",slender shaft,dark blue,largely stable after assembly,familiar physical scale and organised workspace,E,Rod placement and exact hole count unknown.
+ST-009,Cyan rod,213,"[462, 65, 500, 157]",slender shaft with pale circular end,cyan,largely stable after assembly,familiar physical scale and organised workspace,E,Rod placement and exact hole count unknown.
+ST-010,Tray paperclip,213,"[402, 94, 434, 141]",double-loop wire,blue-grey reflective,largely stable after assembly,familiar physical scale and organised workspace,E,
+ST-011,Pink pin,213,"[442, 113, 459, 135]",small cylinder-like object,pink,largely stable after assembly,familiar physical scale and organised workspace,E,
+ST-012,Yellow pin,213,"[439, 142, 456, 166]",wide head/narrow base,yellow,largely stable after assembly,familiar physical scale and organised workspace,E,
+ST-013,Faint accessory,213,,elongated uncertain silhouette,white,largely stable after assembly,familiar physical scale and organised workspace,E,
+ST-014,Horizontal holder,213,"[607, 129, 911, 199]",elongated rounded enclosure,white,largely stable after assembly,familiar physical scale and organised workspace,E,
+ST-015,Recessed surface,213,"[616, 135, 903, 185]",recess,pale white,largely stable after assembly,familiar physical scale and organised workspace,E,
+ST-016,Long shaft,213,"[679, 167, 884, 179]",slender rod,blue,largely stable after assembly,familiar physical scale and organised workspace,E,
+ST-017,Tapered tip,213,"[664, 167, 681, 178]",tapered end,pale,largely stable after assembly,familiar physical scale and organised workspace,E,
+ST-018,Small cyan accessory,213,"[640, 149, 660, 169]",small form,cyan,largely stable after assembly,familiar physical scale and organised workspace,E,
+ST-019,Holder sidewall,213,,lower edge,white-grey,largely stable after assembly,familiar physical scale and organised workspace,E,
+ST-020,Holder shadow,213,,diffuse cast shadow,blue-grey,largely stable after assembly,familiar physical scale and organised workspace,E,
+TY-001,Small regular Aa,213,"[321, 267, 358, 292]","paired glyphs, baseline aligned within size pair",dark blue-grey,early assembly then stable,typographic system,E,Segoe-like; font file not established.
+TY-002,Large regular Aa,213,"[400, 251, 463, 292]","paired glyphs, baseline aligned within size pair",dark blue-grey,early assembly then stable,typographic system,E,Segoe-like; font file not established.
+TY-003,Small bold Aa,213,"[315, 333, 354, 358]","paired glyphs, baseline aligned within size pair",dark blue-grey,early assembly then stable,typographic system,E,Segoe-like; font file not established.
+TY-004,Large bold Aa,213,"[395, 316, 462, 359]","paired glyphs, baseline aligned within size pair",dark blue-grey,early assembly then stable,typographic system,E,Segoe-like; font file not established.
+CT-001,White substrate,213,"[276, 395, 347, 463]",shallow square,white,stable,material contrast test,E,
+CT-002,Blue disc on white,213,"[285, 403, 334, 451]",shallow cylinder,blue,stable,material contrast test,E,
+CT-003,Charcoal substrate,213,"[387, 395, 455, 462]",shallow square,charcoal,stable,material contrast test,E,
+CT-004,Blue disc on charcoal,213,"[395, 403, 444, 452]",shallow cylinder,blue,stable,material contrast test,E,
+CL-001,Colour swatch 1,213,,"shallow rounded bar ~69–70 px wide, 16–18 px tall",#34527A,staggered colour/visibility development,tonal system,M,"Inherited rendered RGB sample at (294,514); not base colour. Bounds not individually segmented."
+CL-002,Colour swatch 2,213,,"shallow rounded bar ~69–70 px wide, 16–18 px tall",#2A5DA5,staggered colour/visibility development,tonal system,M,"Inherited rendered RGB sample at (294,533); not base colour. Bounds not individually segmented."
+CL-003,Colour swatch 3,213,,"shallow rounded bar ~69–70 px wide, 16–18 px tall",#2A6BBD,staggered colour/visibility development,tonal system,M,"Inherited rendered RGB sample at (294,551); not base colour. Bounds not individually segmented."
+CL-004,Colour swatch 4,213,,"shallow rounded bar ~69–70 px wide, 16–18 px tall",#3288DC,staggered colour/visibility development,tonal system,M,"Inherited rendered RGB sample at (294,570); not base colour. Bounds not individually segmented."
+CL-005,Colour swatch 5,213,,"shallow rounded bar ~69–70 px wide, 16–18 px tall",#40ACF1,staggered colour/visibility development,tonal system,M,"Inherited rendered RGB sample at (294,588); not base colour. Bounds not individually segmented."
+CL-006,Colour swatch 6,213,,"shallow rounded bar ~69–70 px wide, 16–18 px tall",#8BC4F7,staggered colour/visibility development,tonal system,M,"Inherited rendered RGB sample at (294,608); not base colour. Bounds not individually segmented."
+CL-007,Colour swatch 7,213,,"shallow rounded bar ~69–70 px wide, 16–18 px tall",#C8DAF4,staggered colour/visibility development,tonal system,M,"Inherited rendered RGB sample at (294,628); not base colour. Bounds not individually segmented."
+CL-008,Colour swatch 8,213,,"shallow rounded bar ~69–70 px wide, 16–18 px tall",#D1DEF2,staggered colour/visibility development,tonal system,M,"Inherited rendered RGB sample at (294,646); not base colour. Bounds not individually segmented."
+CL-009,Colour swatch 9,213,,"shallow rounded bar ~69–70 px wide, 16–18 px tall",#D9DDF1,staggered colour/visibility development,tonal system,M,"Inherited rendered RGB sample at (294,666); not base colour. Bounds not individually segmented."
+CR-001,Colour swatch 1,213,,"shallow rounded bar ~69–70 px wide, 16–18 px tall",#DAE7FC,staggered colour/visibility development,tonal system,M,"Inherited rendered RGB sample at (408,514); not base colour. Bounds not individually segmented."
+CR-002,Colour swatch 2,213,,"shallow rounded bar ~69–70 px wide, 16–18 px tall",#AAD0F5,staggered colour/visibility development,tonal system,M,"Inherited rendered RGB sample at (408,533); not base colour. Bounds not individually segmented."
+CR-003,Colour swatch 3,213,,"shallow rounded bar ~69–70 px wide, 16–18 px tall",#7CC1F4,staggered colour/visibility development,tonal system,M,"Inherited rendered RGB sample at (408,551); not base colour. Bounds not individually segmented."
+CR-004,Colour swatch 4,213,,"shallow rounded bar ~69–70 px wide, 16–18 px tall",#57BAF1,staggered colour/visibility development,tonal system,M,"Inherited rendered RGB sample at (408,570); not base colour. Bounds not individually segmented."
+CR-005,Colour swatch 5,213,,"shallow rounded bar ~69–70 px wide, 16–18 px tall",#1EABEC,staggered colour/visibility development,tonal system,M,"Inherited rendered RGB sample at (408,590); not base colour. Bounds not individually segmented."
+CR-006,Colour swatch 6,213,,"shallow rounded bar ~69–70 px wide, 16–18 px tall",#0D76C0,staggered colour/visibility development,tonal system,M,"Inherited rendered RGB sample at (408,607); not base colour. Bounds not individually segmented."
+CR-007,Colour swatch 7,213,,"shallow rounded bar ~69–70 px wide, 16–18 px tall",#042F52,staggered colour/visibility development,tonal system,M,"Inherited rendered RGB sample at (408,626); not base colour. Bounds not individually segmented."
+CR-008,Colour swatch 8,213,,"shallow rounded bar ~69–70 px wide, 16–18 px tall",#02113A,staggered colour/visibility development,tonal system,M,"Inherited rendered RGB sample at (408,645); not base colour. Bounds not individually segmented."
+CR-009,Colour swatch 9,213,,"shallow rounded bar ~69–70 px wide, 16–18 px tall",#01002B,staggered colour/visibility development,tonal system,M,"Inherited rendered RGB sample at (408,664); not base colour. Bounds not individually segmented."
+UI-001,Header slab,213,"[501, 271, 1020, 298]",planar rectangular component or subdivision,neutral pale polymer; blue buttons,"early assembly, stable thereafter",protected information region,E,
+UI-002,New Mail,213,"[498, 309, 544, 324]",planar rectangular component or subdivision,neutral pale polymer; blue buttons,"early assembly, stable thereafter",protected information region,E,
+UI-003,New Event,213,"[551, 309, 600, 324]",planar rectangular component or subdivision,neutral pale polymer; blue buttons,"early assembly, stable thereafter",protected information region,E,
+UI-004,Left panel,213,"[495, 359, 601, 610]",planar rectangular component or subdivision,neutral pale polymer; blue buttons,"early assembly, stable thereafter",protected information region,E,
+UI-005,Left subdivision,213,"[499, 417, 597, 436]",planar rectangular component or subdivision,neutral pale polymer; blue buttons,"early assembly, stable thereafter",protected information region,E,
+UI-006,Centre panel,213,"[636, 327, 784, 575]",planar rectangular component or subdivision,neutral pale polymer; blue buttons,"early assembly, stable thereafter",protected information region,E,
+UI-007,Centre header,213,"[636, 327, 779, 356]",planar rectangular component or subdivision,neutral pale polymer; blue buttons,"early assembly, stable thereafter",protected information region,E,
+UI-008,Centre line 1,213,,planar rectangular component or subdivision,neutral pale polymer; blue buttons,"early assembly, stable thereafter",protected information region,E,
+UI-009,Centre line 2,213,,planar rectangular component or subdivision,neutral pale polymer; blue buttons,"early assembly, stable thereafter",protected information region,E,
+UI-010,Centre line 3,213,,planar rectangular component or subdivision,neutral pale polymer; blue buttons,"early assembly, stable thereafter",protected information region,E,
+UI-011,Right panel,213,"[812, 324, 1044, 574]",planar rectangular component or subdivision,neutral pale polymer; blue buttons,"early assembly, stable thereafter",protected information region,E,
+UI-012,Right header,213,"[815, 325, 1027, 346]",planar rectangular component or subdivision,neutral pale polymer; blue buttons,"early assembly, stable thereafter",protected information region,E,
+UI-013,Right main,213,"[817, 347, 1034, 451]",planar rectangular component or subdivision,neutral pale polymer; blue buttons,"early assembly, stable thereafter",protected information region,E,
+UI-014,Right lower,213,"[822, 451, 1042, 573]",planar rectangular component or subdivision,neutral pale polymer; blue buttons,"early assembly, stable thereafter",protected information region,E,
+AV-001,Avatar sample 1,213,"[640, 612, 670, 644]","shallow disc, white head/shoulders glyph","saturated blue, white glyph",staggered entrance,human identity and scale,M,Blue segmented bounding box; may omit edge/shadow.
+AV-002,Avatar sample 2,213,"[680, 616, 704, 640]","shallow disc, white head/shoulders glyph","saturated blue, white glyph",staggered entrance,human identity and scale,M,Blue segmented bounding box; may omit edge/shadow.
+AV-003,Avatar sample 3,213,"[722, 619, 738, 636]","shallow disc, white head/shoulders glyph","saturated blue, white glyph",staggered entrance,human identity and scale,M,Blue segmented bounding box; may omit edge/shadow.
+AV-004,Avatar sample 4,213,"[760, 622, 774, 636]","shallow disc, white head/shoulders glyph","saturated blue, white glyph",staggered entrance,human identity and scale,M,Blue segmented bounding box; may omit edge/shadow.
+AV-005,Avatar sample 5,213,"[798, 623, 808, 632]","shallow disc, white head/shoulders glyph","saturated blue, white glyph",staggered entrance,human identity and scale,M,Blue segmented bounding box; may omit edge/shadow.
+AV-006,Portrait disc 1,213,"[964, 174, 992, 202]",embedded portrait within raised ring,cyan,stable local cluster,human context,E,
+AV-007,Portrait disc 2,213,"[1010, 146, 1034, 170]",embedded portrait within raised ring,green-yellow,stable local cluster,human context,E,
+AV-008,Portrait disc 3,213,"[1012, 187, 1040, 215]",embedded portrait within raised ring,pink-purple,stable local cluster,human context,E,
+DC-001,Unread component,213,"[1104, 163, 1277, 306]","layered rounded body with horizontal recess, rotation ~10–14°",white/blue-green,stable,dimensional UI metaphor,E,
+DC-001A,Base,213,,rounded-square base,pale/blue as appropriate,parent-linked,Unread construction,E,
+DC-001B,Sidewall,213,,thick pale edge,pale/blue as appropriate,parent-linked,Unread construction,E,
+DC-001C,Cavity,213,,recessed blue-green region,pale/blue as appropriate,parent-linked,Unread construction,E,
+DC-001D,Upper slab,213,,overlapping white slab,pale/blue as appropriate,parent-linked,Unread construction,E,
+DC-001E,Lower edge,213,,rounded lower edge,pale/blue as appropriate,parent-linked,Unread construction,E,
+DC-001F,Unread glyph,213,,small blue icon,pale/blue as appropriate,parent-linked,Unread construction,E,
+DC-001G,Label,213,,Unread text,pale/blue as appropriate,parent-linked,Unread construction,E,
+DC-001H,Shadow,213,,local soft shadow,pale/blue as appropriate,parent-linked,Unread construction,E,
+PC-001,Loose clip 1,213,"[1139, 310, 1170, 334]","elongated double-loop wire, rotated",blue-grey reflective/translucent-looking,static; overlap and camera reveal,controlled irregularity,E,Count/individual outlines approximate.
+PC-002,Loose clip 2,213,"[1151, 313, 1184, 338]","elongated double-loop wire, rotated",blue-grey reflective/translucent-looking,static; overlap and camera reveal,controlled irregularity,E,Count/individual outlines approximate.
+PC-003,Loose clip 3,213,"[1100, 335, 1131, 363]","elongated double-loop wire, rotated",blue-grey reflective/translucent-looking,static; overlap and camera reveal,controlled irregularity,E,Count/individual outlines approximate.
+PC-004,Loose clip 4,213,"[1118, 328, 1146, 353]","elongated double-loop wire, rotated",blue-grey reflective/translucent-looking,static; overlap and camera reveal,controlled irregularity,E,Count/individual outlines approximate.
+PC-005,Loose clip 5,213,"[1124, 345, 1149, 375]","elongated double-loop wire, rotated",blue-grey reflective/translucent-looking,static; overlap and camera reveal,controlled irregularity,E,Count/individual outlines approximate.
+PC-006,Loose clip 6,213,"[1104, 400, 1131, 427]","elongated double-loop wire, rotated",blue-grey reflective/translucent-looking,static; overlap and camera reveal,controlled irregularity,E,Count/individual outlines approximate.
+DC-002,Large corner assembly,213,"[1206, 327, 1328, 464]","at least three stacked sheets, curled upper edge",pale blue/deep blue/white,clipped,peripheral dimensional contrast,E,
+DC-003,Small document assembly,213,"[1112, 468, 1255, 617]","overlapping offset sheets, flexible curl",deep blue/pale blue/white,static,peripheral dimensional contrast,E,
+DC-004,Textured sphere,213,"[1164, 632, 1256, 726]","sphere, repeating diagonal surface features",cyan-to-deep-blue shading,independent delayed translation,peripheral dimensional contrast,M,
+DC-005,Blue mat,213,"[0, 290, 110, 744]",large rounded rectangle,cyan-blue,clipped,peripheral dimensional contrast,E,
+DC-006,Rod on mat,213,"[0, 534, 59, 565]",slender diagonal rod,dark blue,clipped,peripheral dimensional contrast,E,
+DC-007,Mini sample card,213,"[210, 271, 264, 311]",rotated small colour card,white/multicolour,static,peripheral dimensional contrast,E,
+DC-008,Translucent holder,213,"[141, 341, 249, 504]",elongated tilted enclosure,pale blue/white,static,peripheral dimensional contrast,E,
+DC-009,Grey strip,213,"[54, 598, 210, 683]",raised diagonal strip,grey,static,peripheral dimensional contrast,E,
+DC-010,Pale strip,213,,thin adjacent layer,white-grey,overlap,peripheral dimensional contrast,E,
+DC-011,Blue strip,213,"[71, 622, 222, 704]",parallel strip,blue,static,peripheral dimensional contrast,E,
+DC-012,Lower staggered strips,213,,discrete lengths,pale,clipped,peripheral dimensional contrast,E,
+DC-013,Cyan rolled component,213,"[951, 649, 1051, 744]",rectangular body with rounded lip,translucent cyan,clipped,peripheral dimensional contrast,E,
+DC-014,Framed component,213,"[471, 707, 681, 744]",rectangular housing,pale blue/dark cyan perimeter,clipped,peripheral dimensional contrast,E,
+DC-015,Internal marking,213,,small uncertain marking,coloured,clipped,peripheral dimensional contrast,E,
+DC-002A,Bottom sheet,213,,rounded slab,pale blue,parent-linked,layer and occlusion,E,
+DC-002B,Middle sheet,213,,offset sheet,deep blue,parent-linked,layer and occlusion,E,
+DC-002C,Top sheet,213,,curled flexible sheet,pale,parent-linked,layer and occlusion,E,
+DC-003A,Rear sheet,213,,offset layer,deep blue,parent-linked,layer and occlusion,E,
+DC-003B,Intermediate layer,213,,narrow sheet,brighter blue,parent-linked,layer and occlusion,E,
+DC-003C,Folded corner,213,,curved corner,dark blue,parent-linked,layer and occlusion,E,
+DC-003D,Foreground layer,213,,broad sheet,pale blue,parent-linked,layer and occlusion,E,
+DC-003E,Foreground document,213,,separate sheet,white,parent-linked,layer and occlusion,E,
+DC-003F,Curled section,213,,curved edge,cyan,parent-linked,layer and occlusion,E,
+TN-001,Outer shell,75,,enclosing capsule,blue family with icon accents,depth travel/occlusion,portal discovery,V,"Reference frame identifies shot, not proof every object is visible at that frame."
+TN-002,First rim,75,,rounded rectangular rim,blue family with icon accents,depth travel/occlusion,portal discovery,V,"Reference frame identifies shot, not proof every object is visible at that frame."
+TN-003,Second rim,75,,nested rim,blue family with icon accents,depth travel/occlusion,portal discovery,V,"Reference frame identifies shot, not proof every object is visible at that frame."
+TN-004,Intermediate surfaces,75,,recessed layers,blue family with icon accents,depth travel/occlusion,portal discovery,V,"Reference frame identifies shot, not proof every object is visible at that frame."
+TN-005,Terminal aperture,75,,bright capsule opening,blue family with icon accents,depth travel/occlusion,portal discovery,V,"Reference frame identifies shot, not proof every object is visible at that frame."
+TN-006,Aperture illumination,75,,soft cyan-white,blue family with icon accents,depth travel/occlusion,portal discovery,V,"Reference frame identifies shot, not proof every object is visible at that frame."
+TN-007,Outlook icon,75,,layered envelope and O tile,blue family with icon accents,depth travel/occlusion,portal discovery,V,"Reference frame identifies shot, not proof every object is visible at that frame."
+TN-008,Standalone envelope,75,,pale blue solid,blue family with icon accents,depth travel/occlusion,portal discovery,V,"Reference frame identifies shot, not proof every object is visible at that frame."
+TN-009,Calendar glyph,75,,outlined square,blue family with icon accents,depth travel/occlusion,portal discovery,V,"Reference frame identifies shot, not proof every object is visible at that frame."
+TN-010,Pointer,75,,rounded triangular outline,blue family with icon accents,depth travel/occlusion,portal discovery,V,"Reference frame identifies shot, not proof every object is visible at that frame."
+TN-011,People glyph,75,,outlined figures,blue family with icon accents,depth travel/occlusion,portal discovery,V,"Reference frame identifies shot, not proof every object is visible at that frame."
+TN-012,PowerPoint icon,75,,orange-red layered circle/tile,blue family with icon accents,depth travel/occlusion,portal discovery,V,"Reference frame identifies shot, not proof every object is visible at that frame."
+TN-013,Word icon,75,,blue layered tile,blue family with icon accents,depth travel/occlusion,portal discovery,V,"Reference frame identifies shot, not proof every object is visible at that frame."
+TN-014,Excel icon,75,,green layered tile,blue family with icon accents,depth travel/occlusion,portal discovery,V,"Reference frame identifies shot, not proof every object is visible at that frame."
+TN-015,Cloud-like form,75,,cyan rounded shape,blue family with icon accents,depth travel/occlusion,portal discovery,V,"Reference frame identifies shot, not proof every object is visible at that frame."
+TN-016,Translucent rail,75,,elongated cyan body,blue family with icon accents,depth travel/occlusion,portal discovery,V,"Reference frame identifies shot, not proof every object is visible at that frame."
+TN-017,Foreground slab,75,,thick blue rectangle,blue family with icon accents,depth travel/occlusion,portal discovery,V,"Reference frame identifies shot, not proof every object is visible at that frame."
+TN-018,Suspended blocks,75,,small fragments,blue family with icon accents,depth travel/occlusion,portal discovery,V,"Reference frame identifies shot, not proof every object is visible at that frame."
+TN-019,Exit rail,75,,bent blue strip,blue family with icon accents,depth travel/occlusion,portal discovery,V,"Reference frame identifies shot, not proof every object is visible at that frame."
+ML-001,Disc top,270,,white circular face,white/blue-grey,disc to navigation reveal,primitive-to-function,E,
+ML-002,Disc sidewall,270,,shaded cylindrical edge,white/blue-grey,disc to navigation reveal,primitive-to-function,E,
+ML-003,Envelope perimeter,270,,thin dark outline,white/blue-grey,disc to navigation reveal,primitive-to-function,E,
+ML-004,Flap,270,,two diagonal lines,white/blue-grey,disc to navigation reveal,primitive-to-function,E,
+ML-005,Glyph shadow,270,,subtle darkening,white/blue-grey,disc to navigation reveal,primitive-to-function,E,
+ML-006,Disc shadow,270,,diffuse offset,white/blue-grey,disc to navigation reveal,primitive-to-function,E,
+ML-007,Curved rail,270,,translucent curved strip,white/blue-grey,disc to navigation reveal,primitive-to-function,E,
+ML-008,Companion rail,270,,narrow line,white/blue-grey,disc to navigation reveal,primitive-to-function,E,
+ML-009,Cyan insert,270,,short bar,white/blue-grey,disc to navigation reveal,primitive-to-function,E,
+ML-010,Paperclips,270,,wire forms,white/blue-grey,disc to navigation reveal,primitive-to-function,E,
+RB-001,Textured sphere,540,"[337, 0, 484, 127]",see shot analysis and source crop,white/blue/cyan,camera reactive; ribbon independently reflows,macro scale and functional context,E,Shot-local alias; physical identity with DC/AR/PC not proven.
+RB-002,White block,540,"[685, 23, 765, 104]",see shot analysis and source crop,white/blue/cyan,camera reactive; ribbon independently reflows,macro scale and functional context,E,Shot-local alias; physical identity with DC/AR/PC not proven.
+RB-003,Curved cyan strip,540,"[485, 0, 560, 154]",see shot analysis and source crop,white/blue/cyan,camera reactive; ribbon independently reflows,macro scale and functional context,E,Shot-local alias; physical identity with DC/AR/PC not proven.
+RB-004,Main blue path,540,"[95, 198, 550, 238]",see shot analysis and source crop,white/blue/cyan,camera reactive; ribbon independently reflows,macro scale and functional context,E,Shot-local alias; physical identity with DC/AR/PC not proven.
+RB-005,Short pale strip,540,"[75, 153, 246, 173]",see shot analysis and source crop,white/blue/cyan,camera reactive; ribbon independently reflows,macro scale and functional context,E,Shot-local alias; physical identity with DC/AR/PC not proven.
+RB-006,Secondary short strip,540,"[300, 169, 438, 187]",see shot analysis and source crop,white/blue/cyan,camera reactive; ribbon independently reflows,macro scale and functional context,E,Shot-local alias; physical identity with DC/AR/PC not proven.
+RB-007,Small capsule,540,"[267, 241, 308, 257]",see shot analysis and source crop,white/blue/cyan,camera reactive; ribbon independently reflows,macro scale and functional context,E,Shot-local alias; physical identity with DC/AR/PC not proven.
+RB-008,Companion path,540,"[447, 65, 642, 239]",see shot analysis and source crop,white/blue/cyan,camera reactive; ribbon independently reflows,macro scale and functional context,E,Shot-local alias; physical identity with DC/AR/PC not proven.
+RB-009,Grouped clips,540,"[908, 49, 1054, 156]",see shot analysis and source crop,white/blue/cyan,camera reactive; ribbon independently reflows,macro scale and functional context,E,Shot-local alias; physical identity with DC/AR/PC not proven.
+RB-010,Isolated clip,540,"[877, 187, 932, 222]",see shot analysis and source crop,white/blue/cyan,camera reactive; ribbon independently reflows,macro scale and functional context,E,Shot-local alias; physical identity with DC/AR/PC not proven.
+RB-011,Swatch library,540,"[1195, 0, 1328, 216]",see shot analysis and source crop,white/blue/cyan,camera reactive; ribbon independently reflows,macro scale and functional context,E,Shot-local alias; physical identity with DC/AR/PC not proven.
+RB-012,Command ribbon,540,,see shot analysis and source crop,white/blue/cyan,camera reactive; ribbon independently reflows,macro scale and functional context,E,Shot-local alias; physical identity with DC/AR/PC not proven.
+RB-013,Charcoal substrate,540,"[94, 561, 270, 736]",see shot analysis and source crop,white/blue/cyan,camera reactive; ribbon independently reflows,macro scale and functional context,E,Shot-local alias; physical identity with DC/AR/PC not proven.
+RB-014,Blue disc,540,"[114, 586, 240, 712]",see shot analysis and source crop,white/blue/cyan,camera reactive; ribbon independently reflows,macro scale and functional context,E,Shot-local alias; physical identity with DC/AR/PC not proven.
+RB-015,Blue disc on white,540,"[347, 627, 470, 744]",see shot analysis and source crop,white/blue/cyan,camera reactive; ribbon independently reflows,macro scale and functional context,E,Shot-local alias; physical identity with DC/AR/PC not proven.
+RB-016,Main cyan cube,540,"[597, 519, 680, 602]",see shot analysis and source crop,white/blue/cyan,camera reactive; ribbon independently reflows,macro scale and functional context,E,Shot-local alias; physical identity with DC/AR/PC not proven.
+RB-017,Small cyan cube,540,"[638, 603, 686, 649]",see shot analysis and source crop,white/blue/cyan,camera reactive; ribbon independently reflows,macro scale and functional context,E,Shot-local alias; physical identity with DC/AR/PC not proven.
+RB-018,Tiny pale cube,540,"[615, 604, 638, 628]",see shot analysis and source crop,white/blue/cyan,camera reactive; ribbon independently reflows,macro scale and functional context,E,Shot-local alias; physical identity with DC/AR/PC not proven.
+RB-019,Pale slab,540,,see shot analysis and source crop,white/blue/cyan,camera reactive; ribbon independently reflows,macro scale and functional context,E,Shot-local alias; physical identity with DC/AR/PC not proven.
+RB-020,Folded assembly,540,"[1161, 523, 1328, 744]",see shot analysis and source crop,white/blue/cyan,camera reactive; ribbon independently reflows,macro scale and functional context,E,Shot-local alias; physical identity with DC/AR/PC not proven.
+RB-021,Cursor,540,"[1271, 366, 1328, 415]",see shot analysis and source crop,white/blue/cyan,camera reactive; ribbon independently reflows,macro scale and functional context,E,Shot-local alias; physical identity with DC/AR/PC not proven.
+EM-001,Upper message,660,,curved white sheet,see geometry/source,"layering, reflow or stationary support",physical correspondence world,E,Sheet count at least seven visible surfaces; hidden geometry uncertain.
+EM-002,Second sheet,660,,lavender-grey,see geometry/source,"layering, reflow or stationary support",physical correspondence world,E,Sheet count at least seven visible surfaces; hidden geometry uncertain.
+EM-003,Cyan intermediate,660,,sheet with pink content,see geometry/source,"layering, reflow or stationary support",physical correspondence world,E,Sheet count at least seven visible surfaces; hidden geometry uncertain.
+EM-004,White intermediate,660,,curved perimeter,see geometry/source,"layering, reflow or stationary support",physical correspondence world,E,Sheet count at least seven visible surfaces; hidden geometry uncertain.
+EM-005,Lower grey sheet,660,,darker surface,see geometry/source,"layering, reflow or stationary support",physical correspondence world,E,Sheet count at least seven visible surfaces; hidden geometry uncertain.
+EM-006,Lower cyan sheet,660,,blue content between layers,see geometry/source,"layering, reflow or stationary support",physical correspondence world,E,Sheet count at least seven visible surfaces; hidden geometry uncertain.
+EM-007,Supporting sheet,660,,large curved pale surface,see geometry/source,"layering, reflow or stationary support",physical correspondence world,E,Sheet count at least seven visible surfaces; hidden geometry uncertain.
+EM-008,Stack shadow,660,,broad diffuse shadow,see geometry/source,"layering, reflow or stationary support",physical correspondence world,E,Sheet count at least seven visible surfaces; hidden geometry uncertain.
+EM-009,Laughing face A,660,,"yellow body, dark facial features, magenta mouth, blue tear",see geometry/source,"layering, reflow or stationary support",physical correspondence world,E,Sheet count at least seven visible surfaces; hidden geometry uncertain.
+EM-010,Taco,660,,"curved yellow shell, coloured filling",see geometry/source,"layering, reflow or stationary support",physical correspondence world,E,Sheet count at least seven visible surfaces; hidden geometry uncertain.
+EM-011,Laughing face B,660,,rotated yellow face,see geometry/source,"layering, reflow or stationary support",physical correspondence world,E,Sheet count at least seven visible surfaces; hidden geometry uncertain.
+EM-012,Cup body,660,,open translucent cylinder,see geometry/source,"layering, reflow or stationary support",physical correspondence world,E,Sheet count at least seven visible surfaces; hidden geometry uncertain.
+EM-013,Rim,660,,elliptical lip,see geometry/source,"layering, reflow or stationary support",physical correspondence world,E,Sheet count at least seven visible surfaces; hidden geometry uncertain.
+EM-014,Cavity,660,,visible interior,see geometry/source,"layering, reflow or stationary support",physical correspondence world,E,Sheet count at least seven visible surfaces; hidden geometry uncertain.
+EM-015,Dark pencil,660,,long diagonal shaft,see geometry/source,"layering, reflow or stationary support",physical correspondence world,E,Sheet count at least seven visible surfaces; hidden geometry uncertain.
+EM-016,White rod,660,,near vertical,see geometry/source,"layering, reflow or stationary support",physical correspondence world,E,Sheet count at least seven visible surfaces; hidden geometry uncertain.
+EM-017,Turquoise pencil,660,,diagonal shaft,see geometry/source,"layering, reflow or stationary support",physical correspondence world,E,Sheet count at least seven visible surfaces; hidden geometry uncertain.
+EM-018,Wooden tip,660,,beige taper,see geometry/source,"layering, reflow or stationary support",physical correspondence world,E,Sheet count at least seven visible surfaces; hidden geometry uncertain.
+EM-019,Lead,660,,dark tip,see geometry/source,"layering, reflow or stationary support",physical correspondence world,E,Sheet count at least seven visible surfaces; hidden geometry uncertain.
+EM-020,Blue-grey pencil,660,,short angled shaft,see geometry/source,"layering, reflow or stationary support",physical correspondence world,E,Sheet count at least seven visible surfaces; hidden geometry uncertain.
+EM-021,Pencil end,660,,beige ring/dark centre,see geometry/source,"layering, reflow or stationary support",physical correspondence world,E,Sheet count at least seven visible surfaces; hidden geometry uncertain.
+EM-022,Main cyan cube,660,"[125, 266, 241, 387]",cube,see geometry/source,"layering, reflow or stationary support",physical correspondence world,E,Sheet count at least seven visible surfaces; hidden geometry uncertain.
+EM-023,Smaller cyan cube,660,"[118, 345, 178, 413]",cube,see geometry/source,"layering, reflow or stationary support",physical correspondence world,E,Sheet count at least seven visible surfaces; hidden geometry uncertain.
+EM-024,White cube,660,"[145, 398, 263, 512]",cube,see geometry/source,"layering, reflow or stationary support",physical correspondence world,E,Sheet count at least seven visible surfaces; hidden geometry uncertain.
+EM-025,S-shaped ribbon,660,,broad curved path,see geometry/source,"layering, reflow or stationary support",physical correspondence world,E,Sheet count at least seven visible surfaces; hidden geometry uncertain.
+EM-026,Bright edge,660,,rim highlight,see geometry/source,"layering, reflow or stationary support",physical correspondence world,E,Sheet count at least seven visible surfaces; hidden geometry uncertain.
+EM-027,Companion line,660,,thin cyan line,see geometry/source,"layering, reflow or stationary support",physical correspondence world,E,Sheet count at least seven visible surfaces; hidden geometry uncertain.
+EM-028,Dark inset,660,,curved dark blue,see geometry/source,"layering, reflow or stationary support",physical correspondence world,E,Sheet count at least seven visible surfaces; hidden geometry uncertain.
+EM-029,Lower branch,660,,broad translucent form,see geometry/source,"layering, reflow or stationary support",physical correspondence world,E,Sheet count at least seven visible surfaces; hidden geometry uncertain.
+EM-030,Terminal insert,660,,deep blue capsule,see geometry/source,"layering, reflow or stationary support",physical correspondence world,E,Sheet count at least seven visible surfaces; hidden geometry uncertain.
+EM-031,Rolled background section,660,,raised pale curve,see geometry/source,"layering, reflow or stationary support",physical correspondence world,E,Sheet count at least seven visible surfaces; hidden geometry uncertain.
+RX-001,Palette substrate,1299,,dark horizontal rounded rectangle,warm accents on dark UI,travelling scale wave and selection,expressive feedback,V,
+RX-002,Thumbs up,1299,,yellow hand,warm accents on dark UI,travelling scale wave and selection,expressive feedback,V,
+RX-003,Heart,1299,,magenta two lobes and point,warm accents on dark UI,travelling scale wave and selection,expressive feedback,V,
+RX-004,Party popper,1299,,cone and confetti,warm accents on dark UI,travelling scale wave and selection,expressive feedback,V,
+RX-005,Laugh,1299,,yellow face with mouth/tears,warm accents on dark UI,travelling scale wave and selection,expressive feedback,V,
+RX-006,Surprise,1299,,large eyes and mouth,warm accents on dark UI,travelling scale wave and selection,expressive feedback,V,
+RX-007,Sad,1299,,tear and downturned mouth,warm accents on dark UI,travelling scale wave and selection,expressive feedback,V,
+RX-008,Trigger,1299,,monochrome smile,warm accents on dark UI,travelling scale wave and selection,expressive feedback,V,
+RX-009,Cursor,1299,,rounded translucent arrow,warm accents on dark UI,travelling scale wave and selection,expressive feedback,V,
+RX-010,Persistent reaction,1299,,small magenta heart,warm accents on dark UI,travelling scale wave and selection,expressive feedback,V,
+TK-001,Completion circle,1700,,outlined circle,blue/neutral dark UI,semantic completion,functional feedback,V,
+TK-002,Checkmark,1700,,glyph,blue/neutral dark UI,semantic completion,functional feedback,V,
+TK-003,Blue disc,1700,,filled circle,blue/neutral dark UI,semantic completion,functional feedback,V,
+TK-004,Task title,1700,,Preorder birthday cake,blue/neutral dark UI,semantic completion,functional feedback,V,
+TK-005,Strikethrough,1700,,progressive line,blue/neutral dark UI,semantic completion,functional feedback,V,
+TK-006,Calendar glyph,1700,,outlined calendar,blue/neutral dark UI,semantic completion,functional feedback,V,
+TK-007,Today,1700,,due-date text,blue/neutral dark UI,semantic completion,functional feedback,V,
+TK-008,Favourite,1700,,five-pointed star,blue/neutral dark UI,semantic completion,functional feedback,V,
+TK-009,Separator,1700,,thin line,blue/neutral dark UI,semantic completion,functional feedback,V,
+TK-010,Cursor,1700,,rounded translucent arrow,blue/neutral dark UI,semantic completion,functional feedback,V,
+CUR-001,Optical pointer,1695,"[397, 305, 476, 386]","rounded tip, convex shoulder, concave return, lower lobe",translucent blue-grey with violet and cyan rim,independent translation and apparent orientation,agency,E,
+OUT-001,Butterfly-like accent,1872,,"small organic lobes, uncertain identity",warm pink/red,independent translation and apparent orientation,emotional punctuation,E,
+FN-001,Navigation strip,,,white elongated substrate and active indicator,source-dependent,functional state or scene transition,functional narrative,V,Family-level record; not exhaustive individual masks or per-object timing.
+FN-002,Calendar icon,,,calendar glyph,source-dependent,functional state or scene transition,functional narrative,V,Family-level record; not exhaustive individual masks or per-object timing.
+FN-003,People icon,,,people glyph,source-dependent,functional state or scene transition,functional narrative,V,Family-level record; not exhaustive individual masks or per-object timing.
+FN-004,Attachment icon,,,clip glyph,source-dependent,functional state or scene transition,functional narrative,V,Family-level record; not exhaustive individual masks or per-object timing.
+FN-005,To Do,,,blue checkmark,source-dependent,functional state or scene transition,functional narrative,V,Family-level record; not exhaustive individual masks or per-object timing.
+FN-006,Word,,,layered tile and W,source-dependent,functional state or scene transition,functional narrative,V,Family-level record; not exhaustive individual masks or per-object timing.
+FN-007,Excel,,,layered tile and X,source-dependent,functional state or scene transition,functional narrative,V,Family-level record; not exhaustive individual masks or per-object timing.
+FN-008,PowerPoint,,,layered tile and P,source-dependent,functional state or scene transition,functional narrative,V,Family-level record; not exhaustive individual masks or per-object timing.
+FN-009,App launcher,,,outlined launcher,source-dependent,functional state or scene transition,functional narrative,V,Family-level record; not exhaustive individual masks or per-object timing.
+FN-010,Separator,,,line,source-dependent,functional state or scene transition,functional narrative,V,Family-level record; not exhaustive individual masks or per-object timing.
+FN-011,New Mail button,,,"blue body, icon and label",source-dependent,functional state or scene transition,functional narrative,V,Family-level record; not exhaustive individual masks or per-object timing.
+FN-012,Command groups,,,"Delete, Archive, Sweep, Move To, replies, Quick Steps, categorise, pin, flag, clock",source-dependent,functional state or scene transition,functional narrative,V,Family-level record; not exhaustive individual masks or per-object timing.
+FN-013,Terminal dropdown,,,chevron and supporting body,source-dependent,functional state or scene transition,functional narrative,V,Family-level record; not exhaustive individual masks or per-object timing.
+FN-014,Inbox row,,,"avatar, name, subject, preview, timestamp, category",source-dependent,functional state or scene transition,functional narrative,V,Family-level record; not exhaustive individual masks or per-object timing.
+FN-015,Meeting context,,,"Tomorrow 11 AM (30m), RSVP",source-dependent,functional state or scene transition,functional narrative,V,Family-level record; not exhaustive individual masks or per-object timing.
+FN-016,Desktop,,,"wallpaper, taskbar and window",source-dependent,functional state or scene transition,functional narrative,V,Family-level record; not exhaustive individual masks or per-object timing.
+FN-017,Windows icon,,,four blue panes,source-dependent,functional state or scene transition,functional narrative,V,Family-level record; not exhaustive individual masks or per-object timing.
+FN-018,Outlook taskbar icon,,,"white support, blue envelope, indicator",source-dependent,functional state or scene transition,functional narrative,V,Family-level record; not exhaustive individual masks or per-object timing.
+FN-019,Reading pane,,,"Team Pictures, separate message cards",source-dependent,functional state or scene transition,functional narrative,V,Family-level record; not exhaustive individual masks or per-object timing.
+FN-020,Sidebar,,,calendar/tasks,source-dependent,functional state or scene transition,functional narrative,V,Family-level record; not exhaustive individual masks or per-object timing.
+FN-021,Pinning row,,,Charlotte Waltson Birthday Party,source-dependent,functional state or scene transition,functional narrative,V,Family-level record; not exhaustive individual masks or per-object timing.
+FN-022,Pinned row,,,Wanda Howard,source-dependent,functional state or scene transition,functional narrative,V,Family-level record; not exhaustive individual masks or per-object timing.
+FN-023,Collaborative table,,,"Birthday Party Food & Drinks, Bringing/Invites/RSVP/Due by, avatars, green dots and dates",source-dependent,functional state or scene transition,functional narrative,V,Family-level record; not exhaustive individual masks or per-object timing.
+FN-024,Calendar appointments,,,blue/magenta varied durations,source-dependent,functional state or scene transition,functional narrative,V,Family-level record; not exhaustive individual masks or per-object timing.
+FN-025,Work location,,,Office and Remote dropdown,source-dependent,functional state or scene transition,functional narrative,V,Family-level record; not exhaustive individual masks or per-object timing.
+FN-026,Board panels,,,"calendar, birthday prep tasks, notes, image and map cards",source-dependent,functional state or scene transition,functional narrative,V,Family-level record; not exhaustive individual masks or per-object timing.
+FN-027,Foreground exit,,,large overlapping blue/cyan slabs,source-dependent,functional state or scene transition,functional narrative,V,Family-level record; not exhaustive individual masks or per-object timing.

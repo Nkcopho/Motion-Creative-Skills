@@ -1,0 +1,120 @@
+{
+  "mode": "transfer",
+  "artifact": "Replace with inspected artifact path",
+  "target": 95,
+  "criteria": [
+    {
+      "id": "meaning",
+      "status": "untested",
+      "rating": null,
+      "evidence": []
+    },
+    {
+      "id": "spatial",
+      "status": "untested",
+      "rating": null,
+      "evidence": []
+    },
+    {
+      "id": "geometry",
+      "status": "untested",
+      "rating": null,
+      "evidence": []
+    },
+    {
+      "id": "optics",
+      "status": "untested",
+      "rating": null,
+      "evidence": []
+    },
+    {
+      "id": "scale",
+      "status": "untested",
+      "rating": null,
+      "evidence": []
+    },
+    {
+      "id": "camera",
+      "status": "untested",
+      "rating": null,
+      "evidence": []
+    },
+    {
+      "id": "interaction",
+      "status": "untested",
+      "rating": null,
+      "evidence": []
+    },
+    {
+      "id": "motion",
+      "status": "untested",
+      "rating": null,
+      "evidence": []
+    },
+    {
+      "id": "emotion",
+      "status": "untested",
+      "rating": null,
+      "evidence": []
+    },
+    {
+      "id": "technical",
+      "status": "untested",
+      "rating": null,
+      "evidence": []
+    }
+  ],
+  "gates": [
+    {
+      "id": "G01",
+      "status": "untested",
+      "evidence": []
+    },
+    {
+      "id": "G02",
+      "status": "untested",
+      "evidence": []
+    },
+    {
+      "id": "G03",
+      "status": "untested",
+      "evidence": []
+    },
+    {
+      "id": "G04",
+      "status": "untested",
+      "evidence": []
+    },
+    {
+      "id": "G05",
+      "status": "untested",
+      "evidence": []
+    },
+    {
+      "id": "G06",
+      "status": "untested",
+      "evidence": []
+    },
+    {
+      "id": "G07",
+      "status": "untested",
+      "evidence": []
+    },
+    {
+      "id": "G08",
+      "status": "untested",
+      "evidence": []
+    },
+    {
+      "id": "G09",
+      "status": "untested",
+      "evidence": []
+    },
+    {
+      "id": "G10",
+      "status": "untested",
+      "evidence": []
+    }
+  ],
+  "human_approved": false
+}

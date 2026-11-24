@@ -1,0 +1,3713 @@
+{
+  "schema_version": "1.0",
+  "coordinate_convention": "zero-based XYXY approximate right/bottom exclusive for crops; manually estimated edges may not follow exact convention",
+  "evidence_legend": {
+    "V": "visible/verified",
+    "M": "reported measured image-space",
+    "E": "estimated/manual/inferred",
+    "P": "proposed",
+    "U": "unknown"
+  },
+  "objects": [
+    {
+      "id": "OP-001",
+      "name": "Ground",
+      "reference_frame": 0,
+      "bounds_xyxy": [
+        0,
+        0,
+        1328,
+        744
+      ],
+      "geometry": "continuous pale background",
+      "material": "cool pale diffuse",
+      "behavior": "stationary/reframed",
+      "visual_role": "negative space",
+      "evidence": "V",
+      "notes": ""
+    },
+    {
+      "id": "OP-002",
+      "name": "Try the New Outlook text",
+      "reference_frame": 0,
+      "bounds_xyxy": [
+        40,
+        351,
+        794,
+        435
+      ],
+      "geometry": "letter group with shallow-looking depth",
+      "material": "dark charcoal",
+      "behavior": "leaves and returns through reframing",
+      "visual_role": "CTA",
+      "evidence": "E",
+      "notes": ""
+    },
+    {
+      "id": "OP-003",
+      "name": "Switch outer housing",
+      "reference_frame": 0,
+      "bounds_xyxy": [
+        849,
+        324,
+        1088,
+        444
+      ],
+      "geometry": "capsule, width:height ~2:1",
+      "material": "grey then saturated blue",
+      "behavior": "accelerating proportional enlargement",
+      "visual_role": "portal metaphor",
+      "evidence": "E",
+      "notes": ""
+    },
+    {
+      "id": "OP-004",
+      "name": "Recessed switch face",
+      "reference_frame": 0,
+      "bounds_xyxy": [
+        856,
+        330,
+        1081,
+        437
+      ],
+      "geometry": "inset capsule",
+      "material": "grey then blue",
+      "behavior": "internal world becomes visible",
+      "visual_role": "optical portal",
+      "evidence": "E",
+      "notes": ""
+    },
+    {
+      "id": "OP-005",
+      "name": "Thumb",
+      "reference_frame": 0,
+      "bounds_xyxy": [
+        980,
+        346,
+        1055,
+        421
+      ],
+      "geometry": "circular shallow body",
+      "material": "pale white",
+      "behavior": "already right aligned initially; no confirmed left-to-right travel",
+      "visual_role": "activation identity",
+      "evidence": "E",
+      "notes": ""
+    },
+    {
+      "id": "OP-006",
+      "name": "Text shadow",
+      "reference_frame": 0,
+      "bounds_xyxy": null,
+      "geometry": "diffuse projected shadow",
+      "material": "cool grey",
+      "behavior": "follows text",
+      "visual_role": "depth",
+      "evidence": "E",
+      "notes": ""
+    },
+    {
+      "id": "OP-007",
+      "name": "Housing shadow",
+      "reference_frame": 0,
+      "bounds_xyxy": null,
+      "geometry": "soft offset shadow",
+      "material": "cool grey",
+      "behavior": "follows housing",
+      "visual_role": "depth",
+      "evidence": "E",
+      "notes": ""
+    },
+    {
+      "id": "OP-008",
+      "name": "Expanding capsule rings",
+      "reference_frame": 0,
+      "bounds_xyxy": null,
+      "geometry": "low contrast nested outlines",
+      "material": "pale blue grey",
+      "behavior": "expand during approach",
+      "visual_role": "anticipate tunnel",
+      "evidence": "E",
+      "notes": ""
+    },
+    {
+      "id": "ENV-001",
+      "name": "Ground plane",
+      "reference_frame": 213,
+      "bounds_xyxy": [
+        0,
+        0,
+        1328,
+        744
+      ],
+      "geometry": "continuous planar-looking surface, no horizon",
+      "material": "pale lavender-grey/cool white",
+      "behavior": "camera-reactive",
+      "visual_role": "spatial reference",
+      "evidence": "V",
+      "notes": ""
+    },
+    {
+      "id": "ENV-002",
+      "name": "Grid",
+      "reference_frame": 213,
+      "bounds_xyxy": null,
+      "geometry": "fine primary cells/subdivisions/crosses",
+      "material": "low contrast blue-grey",
+      "behavior": "scale-dependent visibility",
+      "visual_role": "precision",
+      "evidence": "V",
+      "notes": ""
+    },
+    {
+      "id": "ENV-003",
+      "name": "Local illumination",
+      "reference_frame": 213,
+      "bounds_xyxy": null,
+      "geometry": "soft directional colour fields",
+      "material": "cyan optical effect",
+      "behavior": "changes with material and framing",
+      "visual_role": "optical depth",
+      "evidence": "E",
+      "notes": "Mechanism unknown."
+    },
+    {
+      "id": "AR-001",
+      "name": "Main platform",
+      "reference_frame": 213,
+      "bounds_xyxy": [
+        0,
+        0,
+        568,
+        225
+      ],
+      "geometry": "broad shallow platform with curved edge",
+      "material": "pale cyan-grey",
+      "behavior": "mostly camera-reactive",
+      "visual_role": "architectural hierarchy",
+      "evidence": "E",
+      "notes": "frame clipped"
+    },
+    {
+      "id": "AR-002",
+      "name": "Upper translucent pathway",
+      "reference_frame": 213,
+      "bounds_xyxy": [
+        48,
+        18,
+        286,
+        112
+      ],
+      "geometry": "broad rounded strip",
+      "material": "translucent cyan",
+      "behavior": "mostly camera-reactive",
+      "visual_role": "architectural hierarchy",
+      "evidence": "E",
+      "notes": "rounded termination"
+    },
+    {
+      "id": "AR-003",
+      "name": "Secondary pathway",
+      "reference_frame": 213,
+      "bounds_xyxy": [
+        0,
+        103,
+        190,
+        143
+      ],
+      "geometry": "narrow strip with rounded end",
+      "material": "blue",
+      "behavior": "mostly camera-reactive",
+      "visual_role": "architectural hierarchy",
+      "evidence": "E",
+      "notes": "frame clipped"
+    },
+    {
+      "id": "AR-004",
+      "name": "Blue bead",
+      "reference_frame": 213,
+      "bounds_xyxy": [
+        51,
+        28,
+        84,
+        62
+      ],
+      "geometry": "spherical",
+      "material": "dark blue, specular highlights",
+      "behavior": "mostly camera-reactive",
+      "visual_role": "architectural hierarchy",
+      "evidence": "E",
+      "notes": "small rounded accent"
+    },
+    {
+      "id": "AR-005",
+      "name": "Platform lower edge",
+      "reference_frame": 213,
+      "bounds_xyxy": null,
+      "geometry": "thin contour",
+      "material": "dark cyan",
+      "behavior": "mostly camera-reactive",
+      "visual_role": "architectural hierarchy",
+      "evidence": "E",
+      "notes": "depth boundary"
+    },
+    {
+      "id": "AR-006",
+      "name": "Pixel mosaic",
+      "reference_frame": 213,
+      "bounds_xyxy": [
+        0,
+        185,
+        153,
+        256
+      ],
+      "geometry": "staggered square/rectangular/round pieces",
+      "material": "white/cyan/blue/lavender",
+      "behavior": "mostly camera-reactive",
+      "visual_role": "architectural hierarchy",
+      "evidence": "E",
+      "notes": "partially occluded, approx 20+ pieces"
+    },
+    {
+      "id": "AR-007",
+      "name": "Upper deep-blue ribbon",
+      "reference_frame": 213,
+      "bounds_xyxy": [
+        962,
+        0,
+        1328,
+        64
+      ],
+      "geometry": "broad ribbon",
+      "material": "deep blue",
+      "behavior": "mostly camera-reactive",
+      "visual_role": "architectural hierarchy",
+      "evidence": "E",
+      "notes": "clipped"
+    },
+    {
+      "id": "AR-008",
+      "name": "Main bent ribbon",
+      "reference_frame": 213,
+      "bounds_xyxy": [
+        798,
+        0,
+        1328,
+        139
+      ],
+      "geometry": "curved broad path",
+      "material": "blue",
+      "behavior": "mostly camera-reactive",
+      "visual_role": "architectural hierarchy",
+      "evidence": "E",
+      "notes": "path bounds approximate"
+    },
+    {
+      "id": "AR-009",
+      "name": "Stepped rail",
+      "reference_frame": 213,
+      "bounds_xyxy": [
+        595,
+        0,
+        867,
+        70
+      ],
+      "geometry": "stepped curving path",
+      "material": "dark-edge blue",
+      "behavior": "mostly camera-reactive",
+      "visual_role": "architectural hierarchy",
+      "evidence": "E",
+      "notes": "clipped"
+    },
+    {
+      "id": "AR-010",
+      "name": "Short horizontal bar",
+      "reference_frame": 213,
+      "bounds_xyxy": [
+        610,
+        15,
+        727,
+        35
+      ],
+      "geometry": "bar",
+      "material": "blue",
+      "behavior": "mostly camera-reactive",
+      "visual_role": "architectural hierarchy",
+      "evidence": "E",
+      "notes": "static"
+    },
+    {
+      "id": "AR-011",
+      "name": "First capsule insert",
+      "reference_frame": 213,
+      "bounds_xyxy": [
+        647,
+        34,
+        706,
+        53
+      ],
+      "geometry": "capsule",
+      "material": "blue",
+      "behavior": "mostly camera-reactive",
+      "visual_role": "architectural hierarchy",
+      "evidence": "E",
+      "notes": "static"
+    },
+    {
+      "id": "AR-012",
+      "name": "Pale-blue capsule",
+      "reference_frame": 213,
+      "bounds_xyxy": [
+        924,
+        56,
+        1026,
+        74
+      ],
+      "geometry": "capsule",
+      "material": "pale blue",
+      "behavior": "mostly camera-reactive",
+      "visual_role": "architectural hierarchy",
+      "evidence": "E",
+      "notes": "static"
+    },
+    {
+      "id": "AR-013",
+      "name": "Overlapping cyan capsule",
+      "reference_frame": 213,
+      "bounds_xyxy": [
+        874,
+        69,
+        969,
+        88
+      ],
+      "geometry": "capsule",
+      "material": "cyan",
+      "behavior": "mostly camera-reactive",
+      "visual_role": "architectural hierarchy",
+      "evidence": "E",
+      "notes": "overlap"
+    },
+    {
+      "id": "AR-014",
+      "name": "Long central rail",
+      "reference_frame": 213,
+      "bounds_xyxy": [
+        760,
+        95,
+        1073,
+        114
+      ],
+      "geometry": "thin bar",
+      "material": "blue",
+      "behavior": "mostly camera-reactive",
+      "visual_role": "architectural hierarchy",
+      "evidence": "E",
+      "notes": "static"
+    },
+    {
+      "id": "AR-015",
+      "name": "Raised right capsule",
+      "reference_frame": 213,
+      "bounds_xyxy": [
+        1049,
+        73,
+        1149,
+        92
+      ],
+      "geometry": "capsule",
+      "material": "blue",
+      "behavior": "mostly camera-reactive",
+      "visual_role": "architectural hierarchy",
+      "evidence": "E",
+      "notes": "raised"
+    },
+    {
+      "id": "AR-016",
+      "name": "Pale companion capsule",
+      "reference_frame": 213,
+      "bounds_xyxy": [
+        1022,
+        86,
+        1164,
+        106
+      ],
+      "geometry": "capsule",
+      "material": "pale blue",
+      "behavior": "mostly camera-reactive",
+      "visual_role": "architectural hierarchy",
+      "evidence": "E",
+      "notes": "overlap"
+    },
+    {
+      "id": "AR-017",
+      "name": "Lower curved rail",
+      "reference_frame": 213,
+      "bounds_xyxy": [
+        1012,
+        100,
+        1215,
+        139
+      ],
+      "geometry": "curving strip",
+      "material": "pale blue",
+      "behavior": "mostly camera-reactive",
+      "visual_role": "architectural hierarchy",
+      "evidence": "E",
+      "notes": "static"
+    },
+    {
+      "id": "AR-018",
+      "name": "Small blue oval",
+      "reference_frame": 213,
+      "bounds_xyxy": [
+        872,
+        107,
+        904,
+        124
+      ],
+      "geometry": "oval",
+      "material": "deep blue",
+      "behavior": "mostly camera-reactive",
+      "visual_role": "architectural hierarchy",
+      "evidence": "E",
+      "notes": "static"
+    },
+    {
+      "id": "ST-001",
+      "name": "Outer tray",
+      "reference_frame": 213,
+      "bounds_xyxy": [
+        302,
+        7,
+        568,
+        221
+      ],
+      "geometry": "rounded rectangular enclosure",
+      "material": "pale cyan-grey",
+      "behavior": "largely stable after assembly",
+      "visual_role": "familiar physical scale and organised workspace",
+      "evidence": "E",
+      "notes": ""
+    },
+    {
+      "id": "ST-002",
+      "name": "Left recess",
+      "reference_frame": 213,
+      "bounds_xyxy": [
+        311,
+        25,
+        403,
+        193
+      ],
+      "geometry": "long rounded cavity",
+      "material": "cyan illuminated",
+      "behavior": "largely stable after assembly",
+      "visual_role": "familiar physical scale and organised workspace",
+      "evidence": "E",
+      "notes": ""
+    },
+    {
+      "id": "ST-003",
+      "name": "Divider",
+      "reference_frame": 213,
+      "bounds_xyxy": null,
+      "geometry": "raised vertical wall",
+      "material": "pale",
+      "behavior": "largely stable after assembly",
+      "visual_role": "familiar physical scale and organised workspace",
+      "evidence": "E",
+      "notes": ""
+    },
+    {
+      "id": "ST-004",
+      "name": "Perforated plate",
+      "reference_frame": 213,
+      "bounds_xyxy": [
+        392,
+        10,
+        549,
+        183
+      ],
+      "geometry": "rounded slab with holes",
+      "material": "white",
+      "behavior": "largely stable after assembly",
+      "visual_role": "familiar physical scale and organised workspace",
+      "evidence": "E",
+      "notes": "Rod placement and exact hole count unknown."
+    },
+    {
+      "id": "ST-005",
+      "name": "Upper recess pair",
+      "reference_frame": 213,
+      "bounds_xyxy": null,
+      "geometry": "circular openings",
+      "material": "shaded pale",
+      "behavior": "largely stable after assembly",
+      "visual_role": "familiar physical scale and organised workspace",
+      "evidence": "E",
+      "notes": ""
+    },
+    {
+      "id": "ST-006",
+      "name": "Middle recesses",
+      "reference_frame": 213,
+      "bounds_xyxy": null,
+      "geometry": "circular openings",
+      "material": "shaded pale",
+      "behavior": "largely stable after assembly",
+      "visual_role": "familiar physical scale and organised workspace",
+      "evidence": "E",
+      "notes": ""
+    },
+    {
+      "id": "ST-007",
+      "name": "Lower recesses",
+      "reference_frame": 213,
+      "bounds_xyxy": null,
+      "geometry": "circular openings partly occluded",
+      "material": "shaded pale",
+      "behavior": "largely stable after assembly",
+      "visual_role": "familiar physical scale and organised workspace",
+      "evidence": "E",
+      "notes": ""
+    },
+    {
+      "id": "ST-008",
+      "name": "Dark rod",
+      "reference_frame": 213,
+      "bounds_xyxy": [
+        500,
+        22,
+        532,
+        122
+      ],
+      "geometry": "slender shaft",
+      "material": "dark blue",
+      "behavior": "largely stable after assembly",
+      "visual_role": "familiar physical scale and organised workspace",
+      "evidence": "E",
+      "notes": "Rod placement and exact hole count unknown."
+    },
+    {
+      "id": "ST-009",
+      "name": "Cyan rod",
+      "reference_frame": 213,
+      "bounds_xyxy": [
+        462,
+        65,
+        500,
+        157
+      ],
+      "geometry": "slender shaft with pale circular end",
+      "material": "cyan",
+      "behavior": "largely stable after assembly",
+      "visual_role": "familiar physical scale and organised workspace",
+      "evidence": "E",
+      "notes": "Rod placement and exact hole count unknown."
+    },
+    {
+      "id": "ST-010",
+      "name": "Tray paperclip",
+      "reference_frame": 213,
+      "bounds_xyxy": [
+        402,
+        94,
+        434,
+        141
+      ],
+      "geometry": "double-loop wire",
+      "material": "blue-grey reflective",
+      "behavior": "largely stable after assembly",
+      "visual_role": "familiar physical scale and organised workspace",
+      "evidence": "E",
+      "notes": ""
+    },
+    {
+      "id": "ST-011",
+      "name": "Pink pin",
+      "reference_frame": 213,
+      "bounds_xyxy": [
+        442,
+        113,
+        459,
+        135
+      ],
+      "geometry": "small cylinder-like object",
+      "material": "pink",
+      "behavior": "largely stable after assembly",
+      "visual_role": "familiar physical scale and organised workspace",
+      "evidence": "E",
+      "notes": ""
+    },
+    {
+      "id": "ST-012",
+      "name": "Yellow pin",
+      "reference_frame": 213,
+      "bounds_xyxy": [
+        439,
+        142,
+        456,
+        166
+      ],
+      "geometry": "wide head/narrow base",
+      "material": "yellow",
+      "behavior": "largely stable after assembly",
+      "visual_role": "familiar physical scale and organised workspace",
+      "evidence": "E",
+      "notes": ""
+    },
+    {
+      "id": "ST-013",
+      "name": "Faint accessory",
+      "reference_frame": 213,
+      "bounds_xyxy": null,
+      "geometry": "elongated uncertain silhouette",
+      "material": "white",
+      "behavior": "largely stable after assembly",
+      "visual_role": "familiar physical scale and organised workspace",
+      "evidence": "E",
+      "notes": ""
+    },
+    {
+      "id": "ST-014",
+      "name": "Horizontal holder",
+      "reference_frame": 213,
+      "bounds_xyxy": [
+        607,
+        129,
+        911,
+        199
+      ],
+      "geometry": "elongated rounded enclosure",
+      "material": "white",
+      "behavior": "largely stable after assembly",
+      "visual_role": "familiar physical scale and organised workspace",
+      "evidence": "E",
+      "notes": ""
+    },
+    {
+      "id": "ST-015",
+      "name": "Recessed surface",
+      "reference_frame": 213,
+      "bounds_xyxy": [
+        616,
+        135,
+        903,
+        185
+      ],
+      "geometry": "recess",
+      "material": "pale white",
+      "behavior": "largely stable after assembly",
+      "visual_role": "familiar physical scale and organised workspace",
+      "evidence": "E",
+      "notes": ""
+    },
+    {
+      "id": "ST-016",
+      "name": "Long shaft",
+      "reference_frame": 213,
+      "bounds_xyxy": [
+        679,
+        167,
+        884,
+        179
+      ],
+      "geometry": "slender rod",
+      "material": "blue",
+      "behavior": "largely stable after assembly",
+      "visual_role": "familiar physical scale and organised workspace",
+      "evidence": "E",
+      "notes": ""
+    },
+    {
+      "id": "ST-017",
+      "name": "Tapered tip",
+      "reference_frame": 213,
+      "bounds_xyxy": [
+        664,
+        167,
+        681,
+        178
+      ],
+      "geometry": "tapered end",
+      "material": "pale",
+      "behavior": "largely stable after assembly",
+      "visual_role": "familiar physical scale and organised workspace",
+      "evidence": "E",
+      "notes": ""
+    },
+    {
+      "id": "ST-018",
+      "name": "Small cyan accessory",
+      "reference_frame": 213,
+      "bounds_xyxy": [
+        640,
+        149,
+        660,
+        169
+      ],
+      "geometry": "small form",
+      "material": "cyan",
+      "behavior": "largely stable after assembly",
+      "visual_role": "familiar physical scale and organised workspace",
+      "evidence": "E",
+      "notes": ""
+    },
+    {
+      "id": "ST-019",
+      "name": "Holder sidewall",
+      "reference_frame": 213,
+      "bounds_xyxy": null,
+      "geometry": "lower edge",
+      "material": "white-grey",
+      "behavior": "largely stable after assembly",
+      "visual_role": "familiar physical scale and organised workspace",
+      "evidence": "E",
+      "notes": ""
+    },
+    {
+      "id": "ST-020",
+      "name": "Holder shadow",
+      "reference_frame": 213,
+      "bounds_xyxy": null,
+      "geometry": "diffuse cast shadow",
+      "material": "blue-grey",
+      "behavior": "largely stable after assembly",
+      "visual_role": "familiar physical scale and organised workspace",
+      "evidence": "E",
+      "notes": ""
+    },
+    {
+      "id": "TY-001",
+      "name": "Small regular Aa",
+      "reference_frame": 213,
+      "bounds_xyxy": [
+        321,
+        267,
+        358,
+        292
+      ],
+      "geometry": "paired glyphs, baseline aligned within size pair",
+      "material": "dark blue-grey",
+      "behavior": "early assembly then stable",
+      "visual_role": "typographic system",
+      "evidence": "E",
+      "notes": "Segoe-like; font file not established."
+    },
+    {
+      "id": "TY-002",
+      "name": "Large regular Aa",
+      "reference_frame": 213,
+      "bounds_xyxy": [
+        400,
+        251,
+        463,
+        292
+      ],
+      "geometry": "paired glyphs, baseline aligned within size pair",
+      "material": "dark blue-grey",
+      "behavior": "early assembly then stable",
+      "visual_role": "typographic system",
+      "evidence": "E",
+      "notes": "Segoe-like; font file not established."
+    },
+    {
+      "id": "TY-003",
+      "name": "Small bold Aa",
+      "reference_frame": 213,
+      "bounds_xyxy": [
+        315,
+        333,
+        354,
+        358
+      ],
+      "geometry": "paired glyphs, baseline aligned within size pair",
+      "material": "dark blue-grey",
+      "behavior": "early assembly then stable",
+      "visual_role": "typographic system",
+      "evidence": "E",
+      "notes": "Segoe-like; font file not established."
+    },
+    {
+      "id": "TY-004",
+      "name": "Large bold Aa",
+      "reference_frame": 213,
+      "bounds_xyxy": [
+        395,
+        316,
+        462,
+        359
+      ],
+      "geometry": "paired glyphs, baseline aligned within size pair",
+      "material": "dark blue-grey",
+      "behavior": "early assembly then stable",
+      "visual_role": "typographic system",
+      "evidence": "E",
+      "notes": "Segoe-like; font file not established."
+    },
+    {
+      "id": "CT-001",
+      "name": "White substrate",
+      "reference_frame": 213,
+      "bounds_xyxy": [
+        276,
+        395,
+        347,
+        463
+      ],
+      "geometry": "shallow square",
+      "material": "white",
+      "behavior": "stable",
+      "visual_role": "material contrast test",
+      "evidence": "E",
+      "notes": ""
+    },
+    {
+      "id": "CT-002",
+      "name": "Blue disc on white",
+      "reference_frame": 213,
+      "bounds_xyxy": [
+        285,
+        403,
+        334,
+        451
+      ],
+      "geometry": "shallow cylinder",
+      "material": "blue",
+      "behavior": "stable",
+      "visual_role": "material contrast test",
+      "evidence": "E",
+      "notes": ""
+    },
+    {
+      "id": "CT-003",
+      "name": "Charcoal substrate",
+      "reference_frame": 213,
+      "bounds_xyxy": [
+        387,
+        395,
+        455,
+        462
+      ],
+      "geometry": "shallow square",
+      "material": "charcoal",
+      "behavior": "stable",
+      "visual_role": "material contrast test",
+      "evidence": "E",
+      "notes": ""
+    },
+    {
+      "id": "CT-004",
+      "name": "Blue disc on charcoal",
+      "reference_frame": 213,
+      "bounds_xyxy": [
+        395,
+        403,
+        444,
+        452
+      ],
+      "geometry": "shallow cylinder",
+      "material": "blue",
+      "behavior": "stable",
+      "visual_role": "material contrast test",
+      "evidence": "E",
+      "notes": ""
+    },
+    {
+      "id": "CL-001",
+      "name": "Colour swatch 1",
+      "reference_frame": 213,
+      "bounds_xyxy": null,
+      "geometry": "shallow rounded bar ~69–70 px wide, 16–18 px tall",
+      "material": "#34527A",
+      "behavior": "staggered colour/visibility development",
+      "visual_role": "tonal system",
+      "evidence": "M",
+      "notes": "Inherited rendered RGB sample at (294,514); not base colour. Bounds not individually segmented."
+    },
+    {
+      "id": "CL-002",
+      "name": "Colour swatch 2",
+      "reference_frame": 213,
+      "bounds_xyxy": null,
+      "geometry": "shallow rounded bar ~69–70 px wide, 16–18 px tall",
+      "material": "#2A5DA5",
+      "behavior": "staggered colour/visibility development",
+      "visual_role": "tonal system",
+      "evidence": "M",
+      "notes": "Inherited rendered RGB sample at (294,533); not base colour. Bounds not individually segmented."
+    },
+    {
+      "id": "CL-003",
+      "name": "Colour swatch 3",
+      "reference_frame": 213,
+      "bounds_xyxy": null,
+      "geometry": "shallow rounded bar ~69–70 px wide, 16–18 px tall",
+      "material": "#2A6BBD",
+      "behavior": "staggered colour/visibility development",
+      "visual_role": "tonal system",
+      "evidence": "M",
+      "notes": "Inherited rendered RGB sample at (294,551); not base colour. Bounds not individually segmented."
+    },
+    {
+      "id": "CL-004",
+      "name": "Colour swatch 4",
+      "reference_frame": 213,
+      "bounds_xyxy": null,
+      "geometry": "shallow rounded bar ~69–70 px wide, 16–18 px tall",
+      "material": "#3288DC",
+      "behavior": "staggered colour/visibility development",
+      "visual_role": "tonal system",
+      "evidence": "M",
+      "notes": "Inherited rendered RGB sample at (294,570); not base colour. Bounds not individually segmented."
+    },
+    {
+      "id": "CL-005",
+      "name": "Colour swatch 5",
+      "reference_frame": 213,
+      "bounds_xyxy": null,
+      "geometry": "shallow rounded bar ~69–70 px wide, 16–18 px tall",
+      "material": "#40ACF1",
+      "behavior": "staggered colour/visibility development",
+      "visual_role": "tonal system",
+      "evidence": "M",
+      "notes": "Inherited rendered RGB sample at (294,588); not base colour. Bounds not individually segmented."
+    },
+    {
+      "id": "CL-006",
+      "name": "Colour swatch 6",
+      "reference_frame": 213,
+      "bounds_xyxy": null,
+      "geometry": "shallow rounded bar ~69–70 px wide, 16–18 px tall",
+      "material": "#8BC4F7",
+      "behavior": "staggered colour/visibility development",
+      "visual_role": "tonal system",
+      "evidence": "M",
+      "notes": "Inherited rendered RGB sample at (294,608); not base colour. Bounds not individually segmented."
+    },
+    {
+      "id": "CL-007",
+      "name": "Colour swatch 7",
+      "reference_frame": 213,
+      "bounds_xyxy": null,
+      "geometry": "shallow rounded bar ~69–70 px wide, 16–18 px tall",
+      "material": "#C8DAF4",
+      "behavior": "staggered colour/visibility development",
+      "visual_role": "tonal system",
+      "evidence": "M",
+      "notes": "Inherited rendered RGB sample at (294,628); not base colour. Bounds not individually segmented."
+    },
+    {
+      "id": "CL-008",
+      "name": "Colour swatch 8",
+      "reference_frame": 213,
+      "bounds_xyxy": null,
+      "geometry": "shallow rounded bar ~69–70 px wide, 16–18 px tall",
+      "material": "#D1DEF2",
+      "behavior": "staggered colour/visibility development",
+      "visual_role": "tonal system",
+      "evidence": "M",
+      "notes": "Inherited rendered RGB sample at (294,646); not base colour. Bounds not individually segmented."
+    },
+    {
+      "id": "CL-009",
+      "name": "Colour swatch 9",
+      "reference_frame": 213,
+      "bounds_xyxy": null,
+      "geometry": "shallow rounded bar ~69–70 px wide, 16–18 px tall",
+      "material": "#D9DDF1",
+      "behavior": "staggered colour/visibility development",
+      "visual_role": "tonal system",
+      "evidence": "M",
+      "notes": "Inherited rendered RGB sample at (294,666); not base colour. Bounds not individually segmented."
+    },
+    {
+      "id": "CR-001",
+      "name": "Colour swatch 1",
+      "reference_frame": 213,
+      "bounds_xyxy": null,
+      "geometry": "shallow rounded bar ~69–70 px wide, 16–18 px tall",
+      "material": "#DAE7FC",
+      "behavior": "staggered colour/visibility development",
+      "visual_role": "tonal system",
+      "evidence": "M",
+      "notes": "Inherited rendered RGB sample at (408,514); not base colour. Bounds not individually segmented."
+    },
+    {
+      "id": "CR-002",
+      "name": "Colour swatch 2",
+      "reference_frame": 213,
+      "bounds_xyxy": null,
+      "geometry": "shallow rounded bar ~69–70 px wide, 16–18 px tall",
+      "material": "#AAD0F5",
+      "behavior": "staggered colour/visibility development",
+      "visual_role": "tonal system",
+      "evidence": "M",
+      "notes": "Inherited rendered RGB sample at (408,533); not base colour. Bounds not individually segmented."
+    },
+    {
+      "id": "CR-003",
+      "name": "Colour swatch 3",
+      "reference_frame": 213,
+      "bounds_xyxy": null,
+      "geometry": "shallow rounded bar ~69–70 px wide, 16–18 px tall",
+      "material": "#7CC1F4",
+      "behavior": "staggered colour/visibility development",
+      "visual_role": "tonal system",
+      "evidence": "M",
+      "notes": "Inherited rendered RGB sample at (408,551); not base colour. Bounds not individually segmented."
+    },
+    {
+      "id": "CR-004",
+      "name": "Colour swatch 4",
+      "reference_frame": 213,
+      "bounds_xyxy": null,
+      "geometry": "shallow rounded bar ~69–70 px wide, 16–18 px tall",
+      "material": "#57BAF1",
+      "behavior": "staggered colour/visibility development",
+      "visual_role": "tonal system",
+      "evidence": "M",
+      "notes": "Inherited rendered RGB sample at (408,570); not base colour. Bounds not individually segmented."
+    },
+    {
+      "id": "CR-005",
+      "name": "Colour swatch 5",
+      "reference_frame": 213,
+      "bounds_xyxy": null,
+      "geometry": "shallow rounded bar ~69–70 px wide, 16–18 px tall",
+      "material": "#1EABEC",
+      "behavior": "staggered colour/visibility development",
+      "visual_role": "tonal system",
+      "evidence": "M",
+      "notes": "Inherited rendered RGB sample at (408,590); not base colour. Bounds not individually segmented."
+    },
+    {
+      "id": "CR-006",
+      "name": "Colour swatch 6",
+      "reference_frame": 213,
+      "bounds_xyxy": null,
+      "geometry": "shallow rounded bar ~69–70 px wide, 16–18 px tall",
+      "material": "#0D76C0",
+      "behavior": "staggered colour/visibility development",
+      "visual_role": "tonal system",
+      "evidence": "M",
+      "notes": "Inherited rendered RGB sample at (408,607); not base colour. Bounds not individually segmented."
+    },
+    {
+      "id": "CR-007",
+      "name": "Colour swatch 7",
+      "reference_frame": 213,
+      "bounds_xyxy": null,
+      "geometry": "shallow rounded bar ~69–70 px wide, 16–18 px tall",
+      "material": "#042F52",
+      "behavior": "staggered colour/visibility development",
+      "visual_role": "tonal system",
+      "evidence": "M",
+      "notes": "Inherited rendered RGB sample at (408,626); not base colour. Bounds not individually segmented."
+    },
+    {
+      "id": "CR-008",
+      "name": "Colour swatch 8",
+      "reference_frame": 213,
+      "bounds_xyxy": null,
+      "geometry": "shallow rounded bar ~69–70 px wide, 16–18 px tall",
+      "material": "#02113A",
+      "behavior": "staggered colour/visibility development",
+      "visual_role": "tonal system",
+      "evidence": "M",
+      "notes": "Inherited rendered RGB sample at (408,645); not base colour. Bounds not individually segmented."
+    },
+    {
+      "id": "CR-009",
+      "name": "Colour swatch 9",
+      "reference_frame": 213,
+      "bounds_xyxy": null,
+      "geometry": "shallow rounded bar ~69–70 px wide, 16–18 px tall",
+      "material": "#01002B",
+      "behavior": "staggered colour/visibility development",
+      "visual_role": "tonal system",
+      "evidence": "M",
+      "notes": "Inherited rendered RGB sample at (408,664); not base colour. Bounds not individually segmented."
+    },
+    {
+      "id": "UI-001",
+      "name": "Header slab",
+      "reference_frame": 213,
+      "bounds_xyxy": [
+        501,
+        271,
+        1020,
+        298
+      ],
+      "geometry": "planar rectangular component or subdivision",
+      "material": "neutral pale polymer; blue buttons",
+      "behavior": "early assembly, stable thereafter",
+      "visual_role": "protected information region",
+      "evidence": "E",
+      "notes": ""
+    },
+    {
+      "id": "UI-002",
+      "name": "New Mail",
+      "reference_frame": 213,
+      "bounds_xyxy": [
+        498,
+        309,
+        544,
+        324
+      ],
+      "geometry": "planar rectangular component or subdivision",
+      "material": "neutral pale polymer; blue buttons",
+      "behavior": "early assembly, stable thereafter",
+      "visual_role": "protected information region",
+      "evidence": "E",
+      "notes": ""
+    },
+    {
+      "id": "UI-003",
+      "name": "New Event",
+      "reference_frame": 213,
+      "bounds_xyxy": [
+        551,
+        309,
+        600,
+        324
+      ],
+      "geometry": "planar rectangular component or subdivision",
+      "material": "neutral pale polymer; blue buttons",
+      "behavior": "early assembly, stable thereafter",
+      "visual_role": "protected information region",
+      "evidence": "E",
+      "notes": ""
+    },
+    {
+      "id": "UI-004",
+      "name": "Left panel",
+      "reference_frame": 213,
+      "bounds_xyxy": [
+        495,
+        359,
+        601,
+        610
+      ],
+      "geometry": "planar rectangular component or subdivision",
+      "material": "neutral pale polymer; blue buttons",
+      "behavior": "early assembly, stable thereafter",
+      "visual_role": "protected information region",
+      "evidence": "E",
+      "notes": ""
+    },
+    {
+      "id": "UI-005",
+      "name": "Left subdivision",
+      "reference_frame": 213,
+      "bounds_xyxy": [
+        499,
+        417,
+        597,
+        436
+      ],
+      "geometry": "planar rectangular component or subdivision",
+      "material": "neutral pale polymer; blue buttons",
+      "behavior": "early assembly, stable thereafter",
+      "visual_role": "protected information region",
+      "evidence": "E",
+      "notes": ""
+    },
+    {
+      "id": "UI-006",
+      "name": "Centre panel",
+      "reference_frame": 213,
+      "bounds_xyxy": [
+        636,
+        327,
+        784,
+        575
+      ],
+      "geometry": "planar rectangular component or subdivision",
+      "material": "neutral pale polymer; blue buttons",
+      "behavior": "early assembly, stable thereafter",
+      "visual_role": "protected information region",
+      "evidence": "E",
+      "notes": ""
+    },
+    {
+      "id": "UI-007",
+      "name": "Centre header",
+      "reference_frame": 213,
+      "bounds_xyxy": [
+        636,
+        327,
+        779,
+        356
+      ],
+      "geometry": "planar rectangular component or subdivision",
+      "material": "neutral pale polymer; blue buttons",
+      "behavior": "early assembly, stable thereafter",
+      "visual_role": "protected information region",
+      "evidence": "E",
+      "notes": ""
+    },
+    {
+      "id": "UI-008",
+      "name": "Centre line 1",
+      "reference_frame": 213,
+      "bounds_xyxy": null,
+      "geometry": "planar rectangular component or subdivision",
+      "material": "neutral pale polymer; blue buttons",
+      "behavior": "early assembly, stable thereafter",
+      "visual_role": "protected information region",
+      "evidence": "E",
+      "notes": ""
+    },
+    {
+      "id": "UI-009",
+      "name": "Centre line 2",
+      "reference_frame": 213,
+      "bounds_xyxy": null,
+      "geometry": "planar rectangular component or subdivision",
+      "material": "neutral pale polymer; blue buttons",
+      "behavior": "early assembly, stable thereafter",
+      "visual_role": "protected information region",
+      "evidence": "E",
+      "notes": ""
+    },
+    {
+      "id": "UI-010",
+      "name": "Centre line 3",
+      "reference_frame": 213,
+      "bounds_xyxy": null,
+      "geometry": "planar rectangular component or subdivision",
+      "material": "neutral pale polymer; blue buttons",
+      "behavior": "early assembly, stable thereafter",
+      "visual_role": "protected information region",
+      "evidence": "E",
+      "notes": ""
+    },
+    {
+      "id": "UI-011",
+      "name": "Right panel",
+      "reference_frame": 213,
+      "bounds_xyxy": [
+        812,
+        324,
+        1044,
+        574
+      ],
+      "geometry": "planar rectangular component or subdivision",
+      "material": "neutral pale polymer; blue buttons",
+      "behavior": "early assembly, stable thereafter",
+      "visual_role": "protected information region",
+      "evidence": "E",
+      "notes": ""
+    },
+    {
+      "id": "UI-012",
+      "name": "Right header",
+      "reference_frame": 213,
+      "bounds_xyxy": [
+        815,
+        325,
+        1027,
+        346
+      ],
+      "geometry": "planar rectangular component or subdivision",
+      "material": "neutral pale polymer; blue buttons",
+      "behavior": "early assembly, stable thereafter",
+      "visual_role": "protected information region",
+      "evidence": "E",
+      "notes": ""
+    },
+    {
+      "id": "UI-013",
+      "name": "Right main",
+      "reference_frame": 213,
+      "bounds_xyxy": [
+        817,
+        347,
+        1034,
+        451
+      ],
+      "geometry": "planar rectangular component or subdivision",
+      "material": "neutral pale polymer; blue buttons",
+      "behavior": "early assembly, stable thereafter",
+      "visual_role": "protected information region",
+      "evidence": "E",
+      "notes": ""
+    },
+    {
+      "id": "UI-014",
+      "name": "Right lower",
+      "reference_frame": 213,
+      "bounds_xyxy": [
+        822,
+        451,
+        1042,
+        573
+      ],
+      "geometry": "planar rectangular component or subdivision",
+      "material": "neutral pale polymer; blue buttons",
+      "behavior": "early assembly, stable thereafter",
+      "visual_role": "protected information region",
+      "evidence": "E",
+      "notes": ""
+    },
+    {
+      "id": "AV-001",
+      "name": "Avatar sample 1",
+      "reference_frame": 213,
+      "bounds_xyxy": [
+        640,
+        612,
+        670,
+        644
+      ],
+      "geometry": "shallow disc, white head/shoulders glyph",
+      "material": "saturated blue, white glyph",
+      "behavior": "staggered entrance",
+      "visual_role": "human identity and scale",
+      "evidence": "M",
+      "notes": "Blue segmented bounding box; may omit edge/shadow."
+    },
+    {
+      "id": "AV-002",
+      "name": "Avatar sample 2",
+      "reference_frame": 213,
+      "bounds_xyxy": [
+        680,
+        616,
+        704,
+        640
+      ],
+      "geometry": "shallow disc, white head/shoulders glyph",
+      "material": "saturated blue, white glyph",
+      "behavior": "staggered entrance",
+      "visual_role": "human identity and scale",
+      "evidence": "M",
+      "notes": "Blue segmented bounding box; may omit edge/shadow."
+    },
+    {
+      "id": "AV-003",
+      "name": "Avatar sample 3",
+      "reference_frame": 213,
+      "bounds_xyxy": [
+        722,
+        619,
+        738,
+        636
+      ],
+      "geometry": "shallow disc, white head/shoulders glyph",
+      "material": "saturated blue, white glyph",
+      "behavior": "staggered entrance",
+      "visual_role": "human identity and scale",
+      "evidence": "M",
+      "notes": "Blue segmented bounding box; may omit edge/shadow."
+    },
+    {
+      "id": "AV-004",
+      "name": "Avatar sample 4",
+      "reference_frame": 213,
+      "bounds_xyxy": [
+        760,
+        622,
+        774,
+        636
+      ],
+      "geometry": "shallow disc, white head/shoulders glyph",
+      "material": "saturated blue, white glyph",
+      "behavior": "staggered entrance",
+      "visual_role": "human identity and scale",
+      "evidence": "M",
+      "notes": "Blue segmented bounding box; may omit edge/shadow."
+    },
+    {
+      "id": "AV-005",
+      "name": "Avatar sample 5",
+      "reference_frame": 213,
+      "bounds_xyxy": [
+        798,
+        623,
+        808,
+        632
+      ],
+      "geometry": "shallow disc, white head/shoulders glyph",
+      "material": "saturated blue, white glyph",
+      "behavior": "staggered entrance",
+      "visual_role": "human identity and scale",
+      "evidence": "M",
+      "notes": "Blue segmented bounding box; may omit edge/shadow."
+    },
+    {
+      "id": "AV-006",
+      "name": "Portrait disc 1",
+      "reference_frame": 213,
+      "bounds_xyxy": [
+        964,
+        174,
+        992,
+        202
+      ],
+      "geometry": "embedded portrait within raised ring",
+      "material": "cyan",
+      "behavior": "stable local cluster",
+      "visual_role": "human context",
+      "evidence": "E",
+      "notes": ""
+    },
+    {
+      "id": "AV-007",
+      "name": "Portrait disc 2",
+      "reference_frame": 213,
+      "bounds_xyxy": [
+        1010,
+        146,
+        1034,
+        170
+      ],
+      "geometry": "embedded portrait within raised ring",
+      "material": "green-yellow",
+      "behavior": "stable local cluster",
+      "visual_role": "human context",
+      "evidence": "E",
+      "notes": ""
+    },
+    {
+      "id": "AV-008",
+      "name": "Portrait disc 3",
+      "reference_frame": 213,
+      "bounds_xyxy": [
+        1012,
+        187,
+        1040,
+        215
+      ],
+      "geometry": "embedded portrait within raised ring",
+      "material": "pink-purple",
+      "behavior": "stable local cluster",
+      "visual_role": "human context",
+      "evidence": "E",
+      "notes": ""
+    },
+    {
+      "id": "DC-001",
+      "name": "Unread component",
+      "reference_frame": 213,
+      "bounds_xyxy": [
+        1104,
+        163,
+        1277,
+        306
+      ],
+      "geometry": "layered rounded body with horizontal recess, rotation ~10–14°",
+      "material": "white/blue-green",
+      "behavior": "stable",
+      "visual_role": "dimensional UI metaphor",
+      "evidence": "E",
+      "notes": ""
+    },
+    {
+      "id": "DC-001A",
+      "name": "Base",
+      "reference_frame": 213,
+      "bounds_xyxy": null,
+      "geometry": "rounded-square base",
+      "material": "pale/blue as appropriate",
+      "behavior": "parent-linked",
+      "visual_role": "Unread construction",
+      "evidence": "E",
+      "notes": ""
+    },
+    {
+      "id": "DC-001B",
+      "name": "Sidewall",
+      "reference_frame": 213,
+      "bounds_xyxy": null,
+      "geometry": "thick pale edge",
+      "material": "pale/blue as appropriate",
+      "behavior": "parent-linked",
+      "visual_role": "Unread construction",
+      "evidence": "E",
+      "notes": ""
+    },
+    {
+      "id": "DC-001C",
+      "name": "Cavity",
+      "reference_frame": 213,
+      "bounds_xyxy": null,
+      "geometry": "recessed blue-green region",
+      "material": "pale/blue as appropriate",
+      "behavior": "parent-linked",
+      "visual_role": "Unread construction",
+      "evidence": "E",
+      "notes": ""
+    },
+    {
+      "id": "DC-001D",
+      "name": "Upper slab",
+      "reference_frame": 213,
+      "bounds_xyxy": null,
+      "geometry": "overlapping white slab",
+      "material": "pale/blue as appropriate",
+      "behavior": "parent-linked",
+      "visual_role": "Unread construction",
+      "evidence": "E",
+      "notes": ""
+    },
+    {
+      "id": "DC-001E",
+      "name": "Lower edge",
+      "reference_frame": 213,
+      "bounds_xyxy": null,
+      "geometry": "rounded lower edge",
+      "material": "pale/blue as appropriate",
+      "behavior": "parent-linked",
+      "visual_role": "Unread construction",
+      "evidence": "E",
+      "notes": ""
+    },
+    {
+      "id": "DC-001F",
+      "name": "Unread glyph",
+      "reference_frame": 213,
+      "bounds_xyxy": null,
+      "geometry": "small blue icon",
+      "material": "pale/blue as appropriate",
+      "behavior": "parent-linked",
+      "visual_role": "Unread construction",
+      "evidence": "E",
+      "notes": ""
+    },
+    {
+      "id": "DC-001G",
+      "name": "Label",
+      "reference_frame": 213,
+      "bounds_xyxy": null,
+      "geometry": "Unread text",
+      "material": "pale/blue as appropriate",
+      "behavior": "parent-linked",
+      "visual_role": "Unread construction",
+      "evidence": "E",
+      "notes": ""
+    },
+    {
+      "id": "DC-001H",
+      "name": "Shadow",
+      "reference_frame": 213,
+      "bounds_xyxy": null,
+      "geometry": "local soft shadow",
+      "material": "pale/blue as appropriate",
+      "behavior": "parent-linked",
+      "visual_role": "Unread construction",
+      "evidence": "E",
+      "notes": ""
+    },
+    {
+      "id": "PC-001",
+      "name": "Loose clip 1",
+      "reference_frame": 213,
+      "bounds_xyxy": [
+        1139,
+        310,
+        1170,
+        334
+      ],
+      "geometry": "elongated double-loop wire, rotated",
+      "material": "blue-grey reflective/translucent-looking",
+      "behavior": "static; overlap and camera reveal",
+      "visual_role": "controlled irregularity",
+      "evidence": "E",
+      "notes": "Count/individual outlines approximate."
+    },
+    {
+      "id": "PC-002",
+      "name": "Loose clip 2",
+      "reference_frame": 213,
+      "bounds_xyxy": [
+        1151,
+        313,
+        1184,
+        338
+      ],
+      "geometry": "elongated double-loop wire, rotated",
+      "material": "blue-grey reflective/translucent-looking",
+      "behavior": "static; overlap and camera reveal",
+      "visual_role": "controlled irregularity",
+      "evidence": "E",
+      "notes": "Count/individual outlines approximate."
+    },
+    {
+      "id": "PC-003",
+      "name": "Loose clip 3",
+      "reference_frame": 213,
+      "bounds_xyxy": [
+        1100,
+        335,
+        1131,
+        363
+      ],
+      "geometry": "elongated double-loop wire, rotated",
+      "material": "blue-grey reflective/translucent-looking",
+      "behavior": "static; overlap and camera reveal",
+      "visual_role": "controlled irregularity",
+      "evidence": "E",
+      "notes": "Count/individual outlines approximate."
+    },
+    {
+      "id": "PC-004",
+      "name": "Loose clip 4",
+      "reference_frame": 213,
+      "bounds_xyxy": [
+        1118,
+        328,
+        1146,
+        353
+      ],
+      "geometry": "elongated double-loop wire, rotated",
+      "material": "blue-grey reflective/translucent-looking",
+      "behavior": "static; overlap and camera reveal",
+      "visual_role": "controlled irregularity",
+      "evidence": "E",
+      "notes": "Count/individual outlines approximate."
+    },
+    {
+      "id": "PC-005",
+      "name": "Loose clip 5",
+      "reference_frame": 213,
+      "bounds_xyxy": [
+        1124,
+        345,
+        1149,
+        375
+      ],
+      "geometry": "elongated double-loop wire, rotated",
+      "material": "blue-grey reflective/translucent-looking",
+      "behavior": "static; overlap and camera reveal",
+      "visual_role": "controlled irregularity",
+      "evidence": "E",
+      "notes": "Count/individual outlines approximate."
+    },
+    {
+      "id": "PC-006",
+      "name": "Loose clip 6",
+      "reference_frame": 213,
+      "bounds_xyxy": [
+        1104,
+        400,
+        1131,
+        427
+      ],
+      "geometry": "elongated double-loop wire, rotated",
+      "material": "blue-grey reflective/translucent-looking",
+      "behavior": "static; overlap and camera reveal",
+      "visual_role": "controlled irregularity",
+      "evidence": "E",
+      "notes": "Count/individual outlines approximate."
+    },
+    {
+      "id": "DC-002",
+      "name": "Large corner assembly",
+      "reference_frame": 213,
+      "bounds_xyxy": [
+        1206,
+        327,
+        1328,
+        464
+      ],
+      "geometry": "at least three stacked sheets, curled upper edge",
+      "material": "pale blue/deep blue/white",
+      "behavior": "clipped",
+      "visual_role": "peripheral dimensional contrast",
+      "evidence": "E",
+      "notes": ""
+    },
+    {
+      "id": "DC-003",
+      "name": "Small document assembly",
+      "reference_frame": 213,
+      "bounds_xyxy": [
+        1112,
+        468,
+        1255,
+        617
+      ],
+      "geometry": "overlapping offset sheets, flexible curl",
+      "material": "deep blue/pale blue/white",
+      "behavior": "static",
+      "visual_role": "peripheral dimensional contrast",
+      "evidence": "E",
+      "notes": ""
+    },
+    {
+      "id": "DC-004",
+      "name": "Textured sphere",
+      "reference_frame": 213,
+      "bounds_xyxy": [
+        1164,
+        632,
+        1256,
+        726
+      ],
+      "geometry": "sphere, repeating diagonal surface features",
+      "material": "cyan-to-deep-blue shading",
+      "behavior": "independent delayed translation",
+      "visual_role": "peripheral dimensional contrast",
+      "evidence": "M",
+      "notes": ""
+    },
+    {
+      "id": "DC-005",
+      "name": "Blue mat",
+      "reference_frame": 213,
+      "bounds_xyxy": [
+        0,
+        290,
+        110,
+        744
+      ],
+      "geometry": "large rounded rectangle",
+      "material": "cyan-blue",
+      "behavior": "clipped",
+      "visual_role": "peripheral dimensional contrast",
+      "evidence": "E",
+      "notes": ""
+    },
+    {
+      "id": "DC-006",
+      "name": "Rod on mat",
+      "reference_frame": 213,
+      "bounds_xyxy": [
+        0,
+        534,
+        59,
+        565
+      ],
+      "geometry": "slender diagonal rod",
+      "material": "dark blue",
+      "behavior": "clipped",
+      "visual_role": "peripheral dimensional contrast",
+      "evidence": "E",
+      "notes": ""
+    },
+    {
+      "id": "DC-007",
+      "name": "Mini sample card",
+      "reference_frame": 213,
+      "bounds_xyxy": [
+        210,
+        271,
+        264,
+        311
+      ],
+      "geometry": "rotated small colour card",
+      "material": "white/multicolour",
+      "behavior": "static",
+      "visual_role": "peripheral dimensional contrast",
+      "evidence": "E",
+      "notes": ""
+    },
+    {
+      "id": "DC-008",
+      "name": "Translucent holder",
+      "reference_frame": 213,
+      "bounds_xyxy": [
+        141,
+        341,
+        249,
+        504
+      ],
+      "geometry": "elongated tilted enclosure",
+      "material": "pale blue/white",
+      "behavior": "static",
+      "visual_role": "peripheral dimensional contrast",
+      "evidence": "E",
+      "notes": ""
+    },
+    {
+      "id": "DC-009",
+      "name": "Grey strip",
+      "reference_frame": 213,
+      "bounds_xyxy": [
+        54,
+        598,
+        210,
+        683
+      ],
+      "geometry": "raised diagonal strip",
+      "material": "grey",
+      "behavior": "static",
+      "visual_role": "peripheral dimensional contrast",
+      "evidence": "E",
+      "notes": ""
+    },
+    {
+      "id": "DC-010",
+      "name": "Pale strip",
+      "reference_frame": 213,
+      "bounds_xyxy": null,
+      "geometry": "thin adjacent layer",
+      "material": "white-grey",
+      "behavior": "overlap",
+      "visual_role": "peripheral dimensional contrast",
+      "evidence": "E",
+      "notes": ""
+    },
+    {
+      "id": "DC-011",
+      "name": "Blue strip",
+      "reference_frame": 213,
+      "bounds_xyxy": [
+        71,
+        622,
+        222,
+        704
+      ],
+      "geometry": "parallel strip",
+      "material": "blue",
+      "behavior": "static",
+      "visual_role": "peripheral dimensional contrast",
+      "evidence": "E",
+      "notes": ""
+    },
+    {
+      "id": "DC-012",
+      "name": "Lower staggered strips",
+      "reference_frame": 213,
+      "bounds_xyxy": null,
+      "geometry": "discrete lengths",
+      "material": "pale",
+      "behavior": "clipped",
+      "visual_role": "peripheral dimensional contrast",
+      "evidence": "E",
+      "notes": ""
+    },
+    {
+      "id": "DC-013",
+      "name": "Cyan rolled component",
+      "reference_frame": 213,
+      "bounds_xyxy": [
+        951,
+        649,
+        1051,
+        744
+      ],
+      "geometry": "rectangular body with rounded lip",
+      "material": "translucent cyan",
+      "behavior": "clipped",
+      "visual_role": "peripheral dimensional contrast",
+      "evidence": "E",
+      "notes": ""
+    },
+    {
+      "id": "DC-014",
+      "name": "Framed component",
+      "reference_frame": 213,
+      "bounds_xyxy": [
+        471,
+        707,
+        681,
+        744
+      ],
+      "geometry": "rectangular housing",
+      "material": "pale blue/dark cyan perimeter",
+      "behavior": "clipped",
+      "visual_role": "peripheral dimensional contrast",
+      "evidence": "E",
+      "notes": ""
+    },
+    {
+      "id": "DC-015",
+      "name": "Internal marking",
+      "reference_frame": 213,
+      "bounds_xyxy": null,
+      "geometry": "small uncertain marking",
+      "material": "coloured",
+      "behavior": "clipped",
+      "visual_role": "peripheral dimensional contrast",
+      "evidence": "E",
+      "notes": ""
+    },
+    {
+      "id": "DC-002A",
+      "name": "Bottom sheet",
+      "reference_frame": 213,
+      "bounds_xyxy": null,
+      "geometry": "rounded slab",
+      "material": "pale blue",
+      "behavior": "parent-linked",
+      "visual_role": "layer and occlusion",
+      "evidence": "E",
+      "notes": ""
+    },
+    {
+      "id": "DC-002B",
+      "name": "Middle sheet",
+      "reference_frame": 213,
+      "bounds_xyxy": null,
+      "geometry": "offset sheet",
+      "material": "deep blue",
+      "behavior": "parent-linked",
+      "visual_role": "layer and occlusion",
+      "evidence": "E",
+      "notes": ""
+    },
+    {
+      "id": "DC-002C",
+      "name": "Top sheet",
+      "reference_frame": 213,
+      "bounds_xyxy": null,
+      "geometry": "curled flexible sheet",
+      "material": "pale",
+      "behavior": "parent-linked",
+      "visual_role": "layer and occlusion",
+      "evidence": "E",
+      "notes": ""
+    },
+    {
+      "id": "DC-003A",
+      "name": "Rear sheet",
+      "reference_frame": 213,
+      "bounds_xyxy": null,
+      "geometry": "offset layer",
+      "material": "deep blue",
+      "behavior": "parent-linked",
+      "visual_role": "layer and occlusion",
+      "evidence": "E",
+      "notes": ""
+    },
+    {
+      "id": "DC-003B",
+      "name": "Intermediate layer",
+      "reference_frame": 213,
+      "bounds_xyxy": null,
+      "geometry": "narrow sheet",
+      "material": "brighter blue",
+      "behavior": "parent-linked",
+      "visual_role": "layer and occlusion",
+      "evidence": "E",
+      "notes": ""
+    },
+    {
+      "id": "DC-003C",
+      "name": "Folded corner",
+      "reference_frame": 213,
+      "bounds_xyxy": null,
+      "geometry": "curved corner",
+      "material": "dark blue",
+      "behavior": "parent-linked",
+      "visual_role": "layer and occlusion",
+      "evidence": "E",
+      "notes": ""
+    },
+    {
+      "id": "DC-003D",
+      "name": "Foreground layer",
+      "reference_frame": 213,
+      "bounds_xyxy": null,
+      "geometry": "broad sheet",
+      "material": "pale blue",
+      "behavior": "parent-linked",
+      "visual_role": "layer and occlusion",
+      "evidence": "E",
+      "notes": ""
+    },
+    {
+      "id": "DC-003E",
+      "name": "Foreground document",
+      "reference_frame": 213,
+      "bounds_xyxy": null,
+      "geometry": "separate sheet",
+      "material": "white",
+      "behavior": "parent-linked",
+      "visual_role": "layer and occlusion",
+      "evidence": "E",
+      "notes": ""
+    },
+    {
+      "id": "DC-003F",
+      "name": "Curled section",
+      "reference_frame": 213,
+      "bounds_xyxy": null,
+      "geometry": "curved edge",
+      "material": "cyan",
+      "behavior": "parent-linked",
+      "visual_role": "layer and occlusion",
+      "evidence": "E",
+      "notes": ""
+    },
+    {
+      "id": "TN-001",
+      "name": "Outer shell",
+      "reference_frame": 75,
+      "bounds_xyxy": null,
+      "geometry": "enclosing capsule",
+      "material": "blue family with icon accents",
+      "behavior": "depth travel/occlusion",
+      "visual_role": "portal discovery",
+      "evidence": "V",
+      "notes": "Reference frame identifies shot, not proof every object is visible at that frame."
+    },
+    {
+      "id": "TN-002",
+      "name": "First rim",
+      "reference_frame": 75,
+      "bounds_xyxy": null,
+      "geometry": "rounded rectangular rim",
+      "material": "blue family with icon accents",
+      "behavior": "depth travel/occlusion",
+      "visual_role": "portal discovery",
+      "evidence": "V",
+      "notes": "Reference frame identifies shot, not proof every object is visible at that frame."
+    },
+    {
+      "id": "TN-003",
+      "name": "Second rim",
+      "reference_frame": 75,
+      "bounds_xyxy": null,
+      "geometry": "nested rim",
+      "material": "blue family with icon accents",
+      "behavior": "depth travel/occlusion",
+      "visual_role": "portal discovery",
+      "evidence": "V",
+      "notes": "Reference frame identifies shot, not proof every object is visible at that frame."
+    },
+    {
+      "id": "TN-004",
+      "name": "Intermediate surfaces",
+      "reference_frame": 75,
+      "bounds_xyxy": null,
+      "geometry": "recessed layers",
+      "material": "blue family with icon accents",
+      "behavior": "depth travel/occlusion",
+      "visual_role": "portal discovery",
+      "evidence": "V",
+      "notes": "Reference frame identifies shot, not proof every object is visible at that frame."
+    },
+    {
+      "id": "TN-005",
+      "name": "Terminal aperture",
+      "reference_frame": 75,
+      "bounds_xyxy": null,
+      "geometry": "bright capsule opening",
+      "material": "blue family with icon accents",
+      "behavior": "depth travel/occlusion",
+      "visual_role": "portal discovery",
+      "evidence": "V",
+      "notes": "Reference frame identifies shot, not proof every object is visible at that frame."
+    },
+    {
+      "id": "TN-006",
+      "name": "Aperture illumination",
+      "reference_frame": 75,
+      "bounds_xyxy": null,
+      "geometry": "soft cyan-white",
+      "material": "blue family with icon accents",
+      "behavior": "depth travel/occlusion",
+      "visual_role": "portal discovery",
+      "evidence": "V",
+      "notes": "Reference frame identifies shot, not proof every object is visible at that frame."
+    },
+    {
+      "id": "TN-007",
+      "name": "Outlook icon",
+      "reference_frame": 75,
+      "bounds_xyxy": null,
+      "geometry": "layered envelope and O tile",
+      "material": "blue family with icon accents",
+      "behavior": "depth travel/occlusion",
+      "visual_role": "portal discovery",
+      "evidence": "V",
+      "notes": "Reference frame identifies shot, not proof every object is visible at that frame."
+    },
+    {
+      "id": "TN-008",
+      "name": "Standalone envelope",
+      "reference_frame": 75,
+      "bounds_xyxy": null,
+      "geometry": "pale blue solid",
+      "material": "blue family with icon accents",
+      "behavior": "depth travel/occlusion",
+      "visual_role": "portal discovery",
+      "evidence": "V",
+      "notes": "Reference frame identifies shot, not proof every object is visible at that frame."
+    },
+    {
+      "id": "TN-009",
+      "name": "Calendar glyph",
+      "reference_frame": 75,
+      "bounds_xyxy": null,
+      "geometry": "outlined square",
+      "material": "blue family with icon accents",
+      "behavior": "depth travel/occlusion",
+      "visual_role": "portal discovery",
+      "evidence": "V",
+      "notes": "Reference frame identifies shot, not proof every object is visible at that frame."
+    },
+    {
+      "id": "TN-010",
+      "name": "Pointer",
+      "reference_frame": 75,
+      "bounds_xyxy": null,
+      "geometry": "rounded triangular outline",
+      "material": "blue family with icon accents",
+      "behavior": "depth travel/occlusion",
+      "visual_role": "portal discovery",
+      "evidence": "V",
+      "notes": "Reference frame identifies shot, not proof every object is visible at that frame."
+    },
+    {
+      "id": "TN-011",
+      "name": "People glyph",
+      "reference_frame": 75,
+      "bounds_xyxy": null,
+      "geometry": "outlined figures",
+      "material": "blue family with icon accents",
+      "behavior": "depth travel/occlusion",
+      "visual_role": "portal discovery",
+      "evidence": "V",
+      "notes": "Reference frame identifies shot, not proof every object is visible at that frame."
+    },
+    {
+      "id": "TN-012",
+      "name": "PowerPoint icon",
+      "reference_frame": 75,
+      "bounds_xyxy": null,
+      "geometry": "orange-red layered circle/tile",
+      "material": "blue family with icon accents",
+      "behavior": "depth travel/occlusion",
+      "visual_role": "portal discovery",
+      "evidence": "V",
+      "notes": "Reference frame identifies shot, not proof every object is visible at that frame."
+    },
+    {
+      "id": "TN-013",
+      "name": "Word icon",
+      "reference_frame": 75,
+      "bounds_xyxy": null,
+      "geometry": "blue layered tile",
+      "material": "blue family with icon accents",
+      "behavior": "depth travel/occlusion",
+      "visual_role": "portal discovery",
+      "evidence": "V",
+      "notes": "Reference frame identifies shot, not proof every object is visible at that frame."
+    },
+    {
+      "id": "TN-014",
+      "name": "Excel icon",
+      "reference_frame": 75,
+      "bounds_xyxy": null,
+      "geometry": "green layered tile",
+      "material": "blue family with icon accents",
+      "behavior": "depth travel/occlusion",
+      "visual_role": "portal discovery",
+      "evidence": "V",
+      "notes": "Reference frame identifies shot, not proof every object is visible at that frame."
+    },
+    {
+      "id": "TN-015",
+      "name": "Cloud-like form",
+      "reference_frame": 75,
+      "bounds_xyxy": null,
+      "geometry": "cyan rounded shape",
+      "material": "blue family with icon accents",
+      "behavior": "depth travel/occlusion",
+      "visual_role": "portal discovery",
+      "evidence": "V",
+      "notes": "Reference frame identifies shot, not proof every object is visible at that frame."
+    },
+    {
+      "id": "TN-016",
+      "name": "Translucent rail",
+      "reference_frame": 75,
+      "bounds_xyxy": null,
+      "geometry": "elongated cyan body",
+      "material": "blue family with icon accents",
+      "behavior": "depth travel/occlusion",
+      "visual_role": "portal discovery",
+      "evidence": "V",
+      "notes": "Reference frame identifies shot, not proof every object is visible at that frame."
+    },
+    {
+      "id": "TN-017",
+      "name": "Foreground slab",
+      "reference_frame": 75,
+      "bounds_xyxy": null,
+      "geometry": "thick blue rectangle",
+      "material": "blue family with icon accents",
+      "behavior": "depth travel/occlusion",
+      "visual_role": "portal discovery",
+      "evidence": "V",
+      "notes": "Reference frame identifies shot, not proof every object is visible at that frame."
+    },
+    {
+      "id": "TN-018",
+      "name": "Suspended blocks",
+      "reference_frame": 75,
+      "bounds_xyxy": null,
+      "geometry": "small fragments",
+      "material": "blue family with icon accents",
+      "behavior": "depth travel/occlusion",
+      "visual_role": "portal discovery",
+      "evidence": "V",
+      "notes": "Reference frame identifies shot, not proof every object is visible at that frame."
+    },
+    {
+      "id": "TN-019",
+      "name": "Exit rail",
+      "reference_frame": 75,
+      "bounds_xyxy": null,
+      "geometry": "bent blue strip",
+      "material": "blue family with icon accents",
+      "behavior": "depth travel/occlusion",
+      "visual_role": "portal discovery",
+      "evidence": "V",
+      "notes": "Reference frame identifies shot, not proof every object is visible at that frame."
+    },
+    {
+      "id": "ML-001",
+      "name": "Disc top",
+      "reference_frame": 270,
+      "bounds_xyxy": null,
+      "geometry": "white circular face",
+      "material": "white/blue-grey",
+      "behavior": "disc to navigation reveal",
+      "visual_role": "primitive-to-function",
+      "evidence": "E",
+      "notes": ""
+    },
+    {
+      "id": "ML-002",
+      "name": "Disc sidewall",
+      "reference_frame": 270,
+      "bounds_xyxy": null,
+      "geometry": "shaded cylindrical edge",
+      "material": "white/blue-grey",
+      "behavior": "disc to navigation reveal",
+      "visual_role": "primitive-to-function",
+      "evidence": "E",
+      "notes": ""
+    },
+    {
+      "id": "ML-003",
+      "name": "Envelope perimeter",
+      "reference_frame": 270,
+      "bounds_xyxy": null,
+      "geometry": "thin dark outline",
+      "material": "white/blue-grey",
+      "behavior": "disc to navigation reveal",
+      "visual_role": "primitive-to-function",
+      "evidence": "E",
+      "notes": ""
+    },
+    {
+      "id": "ML-004",
+      "name": "Flap",
+      "reference_frame": 270,
+      "bounds_xyxy": null,
+      "geometry": "two diagonal lines",
+      "material": "white/blue-grey",
+      "behavior": "disc to navigation reveal",
+      "visual_role": "primitive-to-function",
+      "evidence": "E",
+      "notes": ""
+    },
+    {
+      "id": "ML-005",
+      "name": "Glyph shadow",
+      "reference_frame": 270,
+      "bounds_xyxy": null,
+      "geometry": "subtle darkening",
+      "material": "white/blue-grey",
+      "behavior": "disc to navigation reveal",
+      "visual_role": "primitive-to-function",
+      "evidence": "E",
+      "notes": ""
+    },
+    {
+      "id": "ML-006",
+      "name": "Disc shadow",
+      "reference_frame": 270,
+      "bounds_xyxy": null,
+      "geometry": "diffuse offset",
+      "material": "white/blue-grey",
+      "behavior": "disc to navigation reveal",
+      "visual_role": "primitive-to-function",
+      "evidence": "E",
+      "notes": ""
+    },
+    {
+      "id": "ML-007",
+      "name": "Curved rail",
+      "reference_frame": 270,
+      "bounds_xyxy": null,
+      "geometry": "translucent curved strip",
+      "material": "white/blue-grey",
+      "behavior": "disc to navigation reveal",
+      "visual_role": "primitive-to-function",
+      "evidence": "E",
+      "notes": ""
+    },
+    {
+      "id": "ML-008",
+      "name": "Companion rail",
+      "reference_frame": 270,
+      "bounds_xyxy": null,
+      "geometry": "narrow line",
+      "material": "white/blue-grey",
+      "behavior": "disc to navigation reveal",
+      "visual_role": "primitive-to-function",
+      "evidence": "E",
+      "notes": ""
+    },
+    {
+      "id": "ML-009",
+      "name": "Cyan insert",
+      "reference_frame": 270,
+      "bounds_xyxy": null,
+      "geometry": "short bar",
+      "material": "white/blue-grey",
+      "behavior": "disc to navigation reveal",
+      "visual_role": "primitive-to-function",
+      "evidence": "E",
+      "notes": ""
+    },
+    {
+      "id": "ML-010",
+      "name": "Paperclips",
+      "reference_frame": 270,
+      "bounds_xyxy": null,
+      "geometry": "wire forms",
+      "material": "white/blue-grey",
+      "behavior": "disc to navigation reveal",
+      "visual_role": "primitive-to-function",
+      "evidence": "E",
+      "notes": ""
+    },
+    {
+      "id": "RB-001",
+      "name": "Textured sphere",
+      "reference_frame": 540,
+      "bounds_xyxy": [
+        337,
+        0,
+        484,
+        127
+      ],
+      "geometry": "see shot analysis and source crop",
+      "material": "white/blue/cyan",
+      "behavior": "camera reactive; ribbon independently reflows",
+      "visual_role": "macro scale and functional context",
+      "evidence": "E",
+      "notes": "Shot-local alias; physical identity with DC/AR/PC not proven."
+    },
+    {
+      "id": "RB-002",
+      "name": "White block",
+      "reference_frame": 540,
+      "bounds_xyxy": [
+        685,
+        23,
+        765,
+        104
+      ],
+      "geometry": "see shot analysis and source crop",
+      "material": "white/blue/cyan",
+      "behavior": "camera reactive; ribbon independently reflows",
+      "visual_role": "macro scale and functional context",
+      "evidence": "E",
+      "notes": "Shot-local alias; physical identity with DC/AR/PC not proven."
+    },
+    {
+      "id": "RB-003",
+      "name": "Curved cyan strip",
+      "reference_frame": 540,
+      "bounds_xyxy": [
+        485,
+        0,
+        560,
+        154
+      ],
+      "geometry": "see shot analysis and source crop",
+      "material": "white/blue/cyan",
+      "behavior": "camera reactive; ribbon independently reflows",
+      "visual_role": "macro scale and functional context",
+      "evidence": "E",
+      "notes": "Shot-local alias; physical identity with DC/AR/PC not proven."
+    },
+    {
+      "id": "RB-004",
+      "name": "Main blue path",
+      "reference_frame": 540,
+      "bounds_xyxy": [
+        95,
+        198,
+        550,
+        238
+      ],
+      "geometry": "see shot analysis and source crop",
+      "material": "white/blue/cyan",
+      "behavior": "camera reactive; ribbon independently reflows",
+      "visual_role": "macro scale and functional context",
+      "evidence": "E",
+      "notes": "Shot-local alias; physical identity with DC/AR/PC not proven."
+    },
+    {
+      "id": "RB-005",
+      "name": "Short pale strip",
+      "reference_frame": 540,
+      "bounds_xyxy": [
+        75,
+        153,
+        246,
+        173
+      ],
+      "geometry": "see shot analysis and source crop",
+      "material": "white/blue/cyan",
+      "behavior": "camera reactive; ribbon independently reflows",
+      "visual_role": "macro scale and functional context",
+      "evidence": "E",
+      "notes": "Shot-local alias; physical identity with DC/AR/PC not proven."
+    },
+    {
+      "id": "RB-006",
+      "name": "Secondary short strip",
+      "reference_frame": 540,
+      "bounds_xyxy": [
+        300,
+        169,
+        438,
+        187
+      ],
+      "geometry": "see shot analysis and source crop",
+      "material": "white/blue/cyan",
+      "behavior": "camera reactive; ribbon independently reflows",
+      "visual_role": "macro scale and functional context",
+      "evidence": "E",
+      "notes": "Shot-local alias; physical identity with DC/AR/PC not proven."
+    },
+    {
+      "id": "RB-007",
+      "name": "Small capsule",
+      "reference_frame": 540,
+      "bounds_xyxy": [
+        267,
+        241,
+        308,
+        257
+      ],
+      "geometry": "see shot analysis and source crop",
+      "material": "white/blue/cyan",
+      "behavior": "camera reactive; ribbon independently reflows",
+      "visual_role": "macro scale and functional context",
+      "evidence": "E",
+      "notes": "Shot-local alias; physical identity with DC/AR/PC not proven."
+    },
+    {
+      "id": "RB-008",
+      "name": "Companion path",
+      "reference_frame": 540,
+      "bounds_xyxy": [
+        447,
+        65,
+        642,
+        239
+      ],
+      "geometry": "see shot analysis and source crop",
+      "material": "white/blue/cyan",
+      "behavior": "camera reactive; ribbon independently reflows",
+      "visual_role": "macro scale and functional context",
+      "evidence": "E",
+      "notes": "Shot-local alias; physical identity with DC/AR/PC not proven."
+    },
+    {
+      "id": "RB-009",
+      "name": "Grouped clips",
+      "reference_frame": 540,
+      "bounds_xyxy": [
+        908,
+        49,
+        1054,
+        156
+      ],
+      "geometry": "see shot analysis and source crop",
+      "material": "white/blue/cyan",
+      "behavior": "camera reactive; ribbon independently reflows",
+      "visual_role": "macro scale and functional context",
+      "evidence": "E",
+      "notes": "Shot-local alias; physical identity with DC/AR/PC not proven."
+    },
+    {
+      "id": "RB-010",
+      "name": "Isolated clip",
+      "reference_frame": 540,
+      "bounds_xyxy": [
+        877,
+        187,
+        932,
+        222
+      ],
+      "geometry": "see shot analysis and source crop",
+      "material": "white/blue/cyan",
+      "behavior": "camera reactive; ribbon independently reflows",
+      "visual_role": "macro scale and functional context",
+      "evidence": "E",
+      "notes": "Shot-local alias; physical identity with DC/AR/PC not proven."
+    },
+    {
+      "id": "RB-011",
+      "name": "Swatch library",
+      "reference_frame": 540,
+      "bounds_xyxy": [
+        1195,
+        0,
+        1328,
+        216
+      ],
+      "geometry": "see shot analysis and source crop",
+      "material": "white/blue/cyan",
+      "behavior": "camera reactive; ribbon independently reflows",
+      "visual_role": "macro scale and functional context",
+      "evidence": "E",
+      "notes": "Shot-local alias; physical identity with DC/AR/PC not proven."
+    },
+    {
+      "id": "RB-012",
+      "name": "Command ribbon",
+      "reference_frame": 540,
+      "bounds_xyxy": null,
+      "geometry": "see shot analysis and source crop",
+      "material": "white/blue/cyan",
+      "behavior": "camera reactive; ribbon independently reflows",
+      "visual_role": "macro scale and functional context",
+      "evidence": "E",
+      "notes": "Shot-local alias; physical identity with DC/AR/PC not proven."
+    },
+    {
+      "id": "RB-013",
+      "name": "Charcoal substrate",
+      "reference_frame": 540,
+      "bounds_xyxy": [
+        94,
+        561,
+        270,
+        736
+      ],
+      "geometry": "see shot analysis and source crop",
+      "material": "white/blue/cyan",
+      "behavior": "camera reactive; ribbon independently reflows",
+      "visual_role": "macro scale and functional context",
+      "evidence": "E",
+      "notes": "Shot-local alias; physical identity with DC/AR/PC not proven."
+    },
+    {
+      "id": "RB-014",
+      "name": "Blue disc",
+      "reference_frame": 540,
+      "bounds_xyxy": [
+        114,
+        586,
+        240,
+        712
+      ],
+      "geometry": "see shot analysis and source crop",
+      "material": "white/blue/cyan",
+      "behavior": "camera reactive; ribbon independently reflows",
+      "visual_role": "macro scale and functional context",
+      "evidence": "E",
+      "notes": "Shot-local alias; physical identity with DC/AR/PC not proven."
+    },
+    {
+      "id": "RB-015",
+      "name": "Blue disc on white",
+      "reference_frame": 540,
+      "bounds_xyxy": [
+        347,
+        627,
+        470,
+        744
+      ],
+      "geometry": "see shot analysis and source crop",
+      "material": "white/blue/cyan",
+      "behavior": "camera reactive; ribbon independently reflows",
+      "visual_role": "macro scale and functional context",
+      "evidence": "E",
+      "notes": "Shot-local alias; physical identity with DC/AR/PC not proven."
+    },
+    {
+      "id": "RB-016",
+      "name": "Main cyan cube",
+      "reference_frame": 540,
+      "bounds_xyxy": [
+        597,
+        519,
+        680,
+        602
+      ],
+      "geometry": "see shot analysis and source crop",
+      "material": "white/blue/cyan",
+      "behavior": "camera reactive; ribbon independently reflows",
+      "visual_role": "macro scale and functional context",
+      "evidence": "E",
+      "notes": "Shot-local alias; physical identity with DC/AR/PC not proven."
+    },
+    {
+      "id": "RB-017",
+      "name": "Small cyan cube",
+      "reference_frame": 540,
+      "bounds_xyxy": [
+        638,
+        603,
+        686,
+        649
+      ],
+      "geometry": "see shot analysis and source crop",
+      "material": "white/blue/cyan",
+      "behavior": "camera reactive; ribbon independently reflows",
+      "visual_role": "macro scale and functional context",
+      "evidence": "E",
+      "notes": "Shot-local alias; physical identity with DC/AR/PC not proven."
+    },
+    {
+      "id": "RB-018",
+      "name": "Tiny pale cube",
+      "reference_frame": 540,
+      "bounds_xyxy": [
+        615,
+        604,
+        638,
+        628
+      ],
+      "geometry": "see shot analysis and source crop",
+      "material": "white/blue/cyan",
+      "behavior": "camera reactive; ribbon independently reflows",
+      "visual_role": "macro scale and functional context",
+      "evidence": "E",
+      "notes": "Shot-local alias; physical identity with DC/AR/PC not proven."
+    },
+    {
+      "id": "RB-019",
+      "name": "Pale slab",
+      "reference_frame": 540,
+      "bounds_xyxy": null,
+      "geometry": "see shot analysis and source crop",
+      "material": "white/blue/cyan",
+      "behavior": "camera reactive; ribbon independently reflows",
+      "visual_role": "macro scale and functional context",
+      "evidence": "E",
+      "notes": "Shot-local alias; physical identity with DC/AR/PC not proven."
+    },
+    {
+      "id": "RB-020",
+      "name": "Folded assembly",
+      "reference_frame": 540,
+      "bounds_xyxy": [
+        1161,
+        523,
+        1328,
+        744
+      ],
+      "geometry": "see shot analysis and source crop",
+      "material": "white/blue/cyan",
+      "behavior": "camera reactive; ribbon independently reflows",
+      "visual_role": "macro scale and functional context",
+      "evidence": "E",
+      "notes": "Shot-local alias; physical identity with DC/AR/PC not proven."
+    },
+    {
+      "id": "RB-021",
+      "name": "Cursor",
+      "reference_frame": 540,
+      "bounds_xyxy": [
+        1271,
+        366,
+        1328,
+        415
+      ],
+      "geometry": "see shot analysis and source crop",
+      "material": "white/blue/cyan",
+      "behavior": "camera reactive; ribbon independently reflows",
+      "visual_role": "macro scale and functional context",
+      "evidence": "E",
+      "notes": "Shot-local alias; physical identity with DC/AR/PC not proven."
+    },
+    {
+      "id": "EM-001",
+      "name": "Upper message",
+      "reference_frame": 660,
+      "bounds_xyxy": null,
+      "geometry": "curved white sheet",
+      "material": "see geometry/source",
+      "behavior": "layering, reflow or stationary support",
+      "visual_role": "physical correspondence world",
+      "evidence": "E",
+      "notes": "Sheet count at least seven visible surfaces; hidden geometry uncertain."
+    },
+    {
+      "id": "EM-002",
+      "name": "Second sheet",
+      "reference_frame": 660,
+      "bounds_xyxy": null,
+      "geometry": "lavender-grey",
+      "material": "see geometry/source",
+      "behavior": "layering, reflow or stationary support",
+      "visual_role": "physical correspondence world",
+      "evidence": "E",
+      "notes": "Sheet count at least seven visible surfaces; hidden geometry uncertain."
+    },
+    {
+      "id": "EM-003",
+      "name": "Cyan intermediate",
+      "reference_frame": 660,
+      "bounds_xyxy": null,
+      "geometry": "sheet with pink content",
+      "material": "see geometry/source",
+      "behavior": "layering, reflow or stationary support",
+      "visual_role": "physical correspondence world",
+      "evidence": "E",
+      "notes": "Sheet count at least seven visible surfaces; hidden geometry uncertain."
+    },
+    {
+      "id": "EM-004",
+      "name": "White intermediate",
+      "reference_frame": 660,
+      "bounds_xyxy": null,
+      "geometry": "curved perimeter",
+      "material": "see geometry/source",
+      "behavior": "layering, reflow or stationary support",
+      "visual_role": "physical correspondence world",
+      "evidence": "E",
+      "notes": "Sheet count at least seven visible surfaces; hidden geometry uncertain."
+    },
+    {
+      "id": "EM-005",
+      "name": "Lower grey sheet",
+      "reference_frame": 660,
+      "bounds_xyxy": null,
+      "geometry": "darker surface",
+      "material": "see geometry/source",
+      "behavior": "layering, reflow or stationary support",
+      "visual_role": "physical correspondence world",
+      "evidence": "E",
+      "notes": "Sheet count at least seven visible surfaces; hidden geometry uncertain."
+    },
+    {
+      "id": "EM-006",
+      "name": "Lower cyan sheet",
+      "reference_frame": 660,
+      "bounds_xyxy": null,
+      "geometry": "blue content between layers",
+      "material": "see geometry/source",
+      "behavior": "layering, reflow or stationary support",
+      "visual_role": "physical correspondence world",
+      "evidence": "E",
+      "notes": "Sheet count at least seven visible surfaces; hidden geometry uncertain."
+    },
+    {
+      "id": "EM-007",
+      "name": "Supporting sheet",
+      "reference_frame": 660,
+      "bounds_xyxy": null,
+      "geometry": "large curved pale surface",
+      "material": "see geometry/source",
+      "behavior": "layering, reflow or stationary support",
+      "visual_role": "physical correspondence world",
+      "evidence": "E",
+      "notes": "Sheet count at least seven visible surfaces; hidden geometry uncertain."
+    },
+    {
+      "id": "EM-008",
+      "name": "Stack shadow",
+      "reference_frame": 660,
+      "bounds_xyxy": null,
+      "geometry": "broad diffuse shadow",
+      "material": "see geometry/source",
+      "behavior": "layering, reflow or stationary support",
+      "visual_role": "physical correspondence world",
+      "evidence": "E",
+      "notes": "Sheet count at least seven visible surfaces; hidden geometry uncertain."
+    },
+    {
+      "id": "EM-009",
+      "name": "Laughing face A",
+      "reference_frame": 660,
+      "bounds_xyxy": null,
+      "geometry": "yellow body, dark facial features, magenta mouth, blue tear",
+      "material": "see geometry/source",
+      "behavior": "layering, reflow or stationary support",
+      "visual_role": "physical correspondence world",
+      "evidence": "E",
+      "notes": "Sheet count at least seven visible surfaces; hidden geometry uncertain."
+    },
+    {
+      "id": "EM-010",
+      "name": "Taco",
+      "reference_frame": 660,
+      "bounds_xyxy": null,
+      "geometry": "curved yellow shell, coloured filling",
+      "material": "see geometry/source",
+      "behavior": "layering, reflow or stationary support",
+      "visual_role": "physical correspondence world",
+      "evidence": "E",
+      "notes": "Sheet count at least seven visible surfaces; hidden geometry uncertain."
+    },
+    {
+      "id": "EM-011",
+      "name": "Laughing face B",
+      "reference_frame": 660,
+      "bounds_xyxy": null,
+      "geometry": "rotated yellow face",
+      "material": "see geometry/source",
+      "behavior": "layering, reflow or stationary support",
+      "visual_role": "physical correspondence world",
+      "evidence": "E",
+      "notes": "Sheet count at least seven visible surfaces; hidden geometry uncertain."
+    },
+    {
+      "id": "EM-012",
+      "name": "Cup body",
+      "reference_frame": 660,
+      "bounds_xyxy": null,
+      "geometry": "open translucent cylinder",
+      "material": "see geometry/source",
+      "behavior": "layering, reflow or stationary support",
+      "visual_role": "physical correspondence world",
+      "evidence": "E",
+      "notes": "Sheet count at least seven visible surfaces; hidden geometry uncertain."
+    },
+    {
+      "id": "EM-013",
+      "name": "Rim",
+      "reference_frame": 660,
+      "bounds_xyxy": null,
+      "geometry": "elliptical lip",
+      "material": "see geometry/source",
+      "behavior": "layering, reflow or stationary support",
+      "visual_role": "physical correspondence world",
+      "evidence": "E",
+      "notes": "Sheet count at least seven visible surfaces; hidden geometry uncertain."
+    },
+    {
+      "id": "EM-014",
+      "name": "Cavity",
+      "reference_frame": 660,
+      "bounds_xyxy": null,
+      "geometry": "visible interior",
+      "material": "see geometry/source",
+      "behavior": "layering, reflow or stationary support",
+      "visual_role": "physical correspondence world",
+      "evidence": "E",
+      "notes": "Sheet count at least seven visible surfaces; hidden geometry uncertain."
+    },
+    {
+      "id": "EM-015",
+      "name": "Dark pencil",
+      "reference_frame": 660,
+      "bounds_xyxy": null,
+      "geometry": "long diagonal shaft",
+      "material": "see geometry/source",
+      "behavior": "layering, reflow or stationary support",
+      "visual_role": "physical correspondence world",
+      "evidence": "E",
+      "notes": "Sheet count at least seven visible surfaces; hidden geometry uncertain."
+    },
+    {
+      "id": "EM-016",
+      "name": "White rod",
+      "reference_frame": 660,
+      "bounds_xyxy": null,
+      "geometry": "near vertical",
+      "material": "see geometry/source",
+      "behavior": "layering, reflow or stationary support",
+      "visual_role": "physical correspondence world",
+      "evidence": "E",
+      "notes": "Sheet count at least seven visible surfaces; hidden geometry uncertain."
+    },
+    {
+      "id": "EM-017",
+      "name": "Turquoise pencil",
+      "reference_frame": 660,
+      "bounds_xyxy": null,
+      "geometry": "diagonal shaft",
+      "material": "see geometry/source",
+      "behavior": "layering, reflow or stationary support",
+      "visual_role": "physical correspondence world",
+      "evidence": "E",
+      "notes": "Sheet count at least seven visible surfaces; hidden geometry uncertain."
+    },
+    {
+      "id": "EM-018",
+      "name": "Wooden tip",
+      "reference_frame": 660,
+      "bounds_xyxy": null,
+      "geometry": "beige taper",
+      "material": "see geometry/source",
+      "behavior": "layering, reflow or stationary support",
+      "visual_role": "physical correspondence world",
+      "evidence": "E",
+      "notes": "Sheet count at least seven visible surfaces; hidden geometry uncertain."
+    },
+    {
+      "id": "EM-019",
+      "name": "Lead",
+      "reference_frame": 660,
+      "bounds_xyxy": null,
+      "geometry": "dark tip",
+      "material": "see geometry/source",
+      "behavior": "layering, reflow or stationary support",
+      "visual_role": "physical correspondence world",
+      "evidence": "E",
+      "notes": "Sheet count at least seven visible surfaces; hidden geometry uncertain."
+    },
+    {
+      "id": "EM-020",
+      "name": "Blue-grey pencil",
+      "reference_frame": 660,
+      "bounds_xyxy": null,
+      "geometry": "short angled shaft",
+      "material": "see geometry/source",
+      "behavior": "layering, reflow or stationary support",
+      "visual_role": "physical correspondence world",
+      "evidence": "E",
+      "notes": "Sheet count at least seven visible surfaces; hidden geometry uncertain."
+    },
+    {
+      "id": "EM-021",
+      "name": "Pencil end",
+      "reference_frame": 660,
+      "bounds_xyxy": null,
+      "geometry": "beige ring/dark centre",
+      "material": "see geometry/source",
+      "behavior": "layering, reflow or stationary support",
+      "visual_role": "physical correspondence world",
+      "evidence": "E",
+      "notes": "Sheet count at least seven visible surfaces; hidden geometry uncertain."
+    },
+    {
+      "id": "EM-022",
+      "name": "Main cyan cube",
+      "reference_frame": 660,
+      "bounds_xyxy": [
+        125,
+        266,
+        241,
+        387
+      ],
+      "geometry": "cube",
+      "material": "see geometry/source",
+      "behavior": "layering, reflow or stationary support",
+      "visual_role": "physical correspondence world",
+      "evidence": "E",
+      "notes": "Sheet count at least seven visible surfaces; hidden geometry uncertain."
+    },
+    {
+      "id": "EM-023",
+      "name": "Smaller cyan cube",
+      "reference_frame": 660,
+      "bounds_xyxy": [
+        118,
+        345,
+        178,
+        413
+      ],
+      "geometry": "cube",
+      "material": "see geometry/source",
+      "behavior": "layering, reflow or stationary support",
+      "visual_role": "physical correspondence world",
+      "evidence": "E",
+      "notes": "Sheet count at least seven visible surfaces; hidden geometry uncertain."
+    },
+    {
+      "id": "EM-024",
+      "name": "White cube",
+      "reference_frame": 660,
+      "bounds_xyxy": [
+        145,
+        398,
+        263,
+        512
+      ],
+      "geometry": "cube",
+      "material": "see geometry/source",
+      "behavior": "layering, reflow or stationary support",
+      "visual_role": "physical correspondence world",
+      "evidence": "E",
+      "notes": "Sheet count at least seven visible surfaces; hidden geometry uncertain."
+    },
+    {
+      "id": "EM-025",
+      "name": "S-shaped ribbon",
+      "reference_frame": 660,
+      "bounds_xyxy": null,
+      "geometry": "broad curved path",
+      "material": "see geometry/source",
+      "behavior": "layering, reflow or stationary support",
+      "visual_role": "physical correspondence world",
+      "evidence": "E",
+      "notes": "Sheet count at least seven visible surfaces; hidden geometry uncertain."
+    },
+    {
+      "id": "EM-026",
+      "name": "Bright edge",
+      "reference_frame": 660,
+      "bounds_xyxy": null,
+      "geometry": "rim highlight",
+      "material": "see geometry/source",
+      "behavior": "layering, reflow or stationary support",
+      "visual_role": "physical correspondence world",
+      "evidence": "E",
+      "notes": "Sheet count at least seven visible surfaces; hidden geometry uncertain."
+    },
+    {
+      "id": "EM-027",
+      "name": "Companion line",
+      "reference_frame": 660,
+      "bounds_xyxy": null,
+      "geometry": "thin cyan line",
+      "material": "see geometry/source",
+      "behavior": "layering, reflow or stationary support",
+      "visual_role": "physical correspondence world",
+      "evidence": "E",
+      "notes": "Sheet count at least seven visible surfaces; hidden geometry uncertain."
+    },
+    {
+      "id": "EM-028",
+      "name": "Dark inset",
+      "reference_frame": 660,
+      "bounds_xyxy": null,
+      "geometry": "curved dark blue",
+      "material": "see geometry/source",
+      "behavior": "layering, reflow or stationary support",
+      "visual_role": "physical correspondence world",
+      "evidence": "E",
+      "notes": "Sheet count at least seven visible surfaces; hidden geometry uncertain."
+    },
+    {
+      "id": "EM-029",
+      "name": "Lower branch",
+      "reference_frame": 660,
+      "bounds_xyxy": null,
+      "geometry": "broad translucent form",
+      "material": "see geometry/source",
+      "behavior": "layering, reflow or stationary support",
+      "visual_role": "physical correspondence world",
+      "evidence": "E",
+      "notes": "Sheet count at least seven visible surfaces; hidden geometry uncertain."
+    },
+    {
+      "id": "EM-030",
+      "name": "Terminal insert",
+      "reference_frame": 660,
+      "bounds_xyxy": null,
+      "geometry": "deep blue capsule",
+      "material": "see geometry/source",
+      "behavior": "layering, reflow or stationary support",
+      "visual_role": "physical correspondence world",
+      "evidence": "E",
+      "notes": "Sheet count at least seven visible surfaces; hidden geometry uncertain."
+    },
+    {
+      "id": "EM-031",
+      "name": "Rolled background section",
+      "reference_frame": 660,
+      "bounds_xyxy": null,
+      "geometry": "raised pale curve",
+      "material": "see geometry/source",
+      "behavior": "layering, reflow or stationary support",
+      "visual_role": "physical correspondence world",
+      "evidence": "E",
+      "notes": "Sheet count at least seven visible surfaces; hidden geometry uncertain."
+    },
+    {
+      "id": "RX-001",
+      "name": "Palette substrate",
+      "reference_frame": 1299,
+      "bounds_xyxy": null,
+      "geometry": "dark horizontal rounded rectangle",
+      "material": "warm accents on dark UI",
+      "behavior": "travelling scale wave and selection",
+      "visual_role": "expressive feedback",
+      "evidence": "V",
+      "notes": ""
+    },
+    {
+      "id": "RX-002",
+      "name": "Thumbs up",
+      "reference_frame": 1299,
+      "bounds_xyxy": null,
+      "geometry": "yellow hand",
+      "material": "warm accents on dark UI",
+      "behavior": "travelling scale wave and selection",
+      "visual_role": "expressive feedback",
+      "evidence": "V",
+      "notes": ""
+    },
+    {
+      "id": "RX-003",
+      "name": "Heart",
+      "reference_frame": 1299,
+      "bounds_xyxy": null,
+      "geometry": "magenta two lobes and point",
+      "material": "warm accents on dark UI",
+      "behavior": "travelling scale wave and selection",
+      "visual_role": "expressive feedback",
+      "evidence": "V",
+      "notes": ""
+    },
+    {
+      "id": "RX-004",
+      "name": "Party popper",
+      "reference_frame": 1299,
+      "bounds_xyxy": null,
+      "geometry": "cone and confetti",
+      "material": "warm accents on dark UI",
+      "behavior": "travelling scale wave and selection",
+      "visual_role": "expressive feedback",
+      "evidence": "V",
+      "notes": ""
+    },
+    {
+      "id": "RX-005",
+      "name": "Laugh",
+      "reference_frame": 1299,
+      "bounds_xyxy": null,
+      "geometry": "yellow face with mouth/tears",
+      "material": "warm accents on dark UI",
+      "behavior": "travelling scale wave and selection",
+      "visual_role": "expressive feedback",
+      "evidence": "V",
+      "notes": ""
+    },
+    {
+      "id": "RX-006",
+      "name": "Surprise",
+      "reference_frame": 1299,
+      "bounds_xyxy": null,
+      "geometry": "large eyes and mouth",
+      "material": "warm accents on dark UI",
+      "behavior": "travelling scale wave and selection",
+      "visual_role": "expressive feedback",
+      "evidence": "V",
+      "notes": ""
+    },
+    {
+      "id": "RX-007",
+      "name": "Sad",
+      "reference_frame": 1299,
+      "bounds_xyxy": null,
+      "geometry": "tear and downturned mouth",
+      "material": "warm accents on dark UI",
+      "behavior": "travelling scale wave and selection",
+      "visual_role": "expressive feedback",
+      "evidence": "V",
+      "notes": ""
+    },
+    {
+      "id": "RX-008",
+      "name": "Trigger",
+      "reference_frame": 1299,
+      "bounds_xyxy": null,
+      "geometry": "monochrome smile",
+      "material": "warm accents on dark UI",
+      "behavior": "travelling scale wave and selection",
+      "visual_role": "expressive feedback",
+      "evidence": "V",
+      "notes": ""
+    },
+    {
+      "id": "RX-009",
+      "name": "Cursor",
+      "reference_frame": 1299,
+      "bounds_xyxy": null,
+      "geometry": "rounded translucent arrow",
+      "material": "warm accents on dark UI",
+      "behavior": "travelling scale wave and selection",
+      "visual_role": "expressive feedback",
+      "evidence": "V",
+      "notes": ""
+    },
+    {
+      "id": "RX-010",
+      "name": "Persistent reaction",
+      "reference_frame": 1299,
+      "bounds_xyxy": null,
+      "geometry": "small magenta heart",
+      "material": "warm accents on dark UI",
+      "behavior": "travelling scale wave and selection",
+      "visual_role": "expressive feedback",
+      "evidence": "V",
+      "notes": ""
+    },
+    {
+      "id": "TK-001",
+      "name": "Completion circle",
+      "reference_frame": 1700,
+      "bounds_xyxy": null,
+      "geometry": "outlined circle",
+      "material": "blue/neutral dark UI",
+      "behavior": "semantic completion",
+      "visual_role": "functional feedback",
+      "evidence": "V",
+      "notes": ""
+    },
+    {
+      "id": "TK-002",
+      "name": "Checkmark",
+      "reference_frame": 1700,
+      "bounds_xyxy": null,
+      "geometry": "glyph",
+      "material": "blue/neutral dark UI",
+      "behavior": "semantic completion",
+      "visual_role": "functional feedback",
+      "evidence": "V",
+      "notes": ""
+    },
+    {
+      "id": "TK-003",
+      "name": "Blue disc",
+      "reference_frame": 1700,
+      "bounds_xyxy": null,
+      "geometry": "filled circle",
+      "material": "blue/neutral dark UI",
+      "behavior": "semantic completion",
+      "visual_role": "functional feedback",
+      "evidence": "V",
+      "notes": ""
+    },
+    {
+      "id": "TK-004",
+      "name": "Task title",
+      "reference_frame": 1700,
+      "bounds_xyxy": null,
+      "geometry": "Preorder birthday cake",
+      "material": "blue/neutral dark UI",
+      "behavior": "semantic completion",
+      "visual_role": "functional feedback",
+      "evidence": "V",
+      "notes": ""
+    },
+    {
+      "id": "TK-005",
+      "name": "Strikethrough",
+      "reference_frame": 1700,
+      "bounds_xyxy": null,
+      "geometry": "progressive line",
+      "material": "blue/neutral dark UI",
+      "behavior": "semantic completion",
+      "visual_role": "functional feedback",
+      "evidence": "V",
+      "notes": ""
+    },
+    {
+      "id": "TK-006",
+      "name": "Calendar glyph",
+      "reference_frame": 1700,
+      "bounds_xyxy": null,
+      "geometry": "outlined calendar",
+      "material": "blue/neutral dark UI",
+      "behavior": "semantic completion",
+      "visual_role": "functional feedback",
+      "evidence": "V",
+      "notes": ""
+    },
+    {
+      "id": "TK-007",
+      "name": "Today",
+      "reference_frame": 1700,
+      "bounds_xyxy": null,
+      "geometry": "due-date text",
+      "material": "blue/neutral dark UI",
+      "behavior": "semantic completion",
+      "visual_role": "functional feedback",
+      "evidence": "V",
+      "notes": ""
+    },
+    {
+      "id": "TK-008",
+      "name": "Favourite",
+      "reference_frame": 1700,
+      "bounds_xyxy": null,
+      "geometry": "five-pointed star",
+      "material": "blue/neutral dark UI",
+      "behavior": "semantic completion",
+      "visual_role": "functional feedback",
+      "evidence": "V",
+      "notes": ""
+    },
+    {
+      "id": "TK-009",
+      "name": "Separator",
+      "reference_frame": 1700,
+      "bounds_xyxy": null,
+      "geometry": "thin line",
+      "material": "blue/neutral dark UI",
+      "behavior": "semantic completion",
+      "visual_role": "functional feedback",
+      "evidence": "V",
+      "notes": ""
+    },
+    {
+      "id": "TK-010",
+      "name": "Cursor",
+      "reference_frame": 1700,
+      "bounds_xyxy": null,
+      "geometry": "rounded translucent arrow",
+      "material": "blue/neutral dark UI",
+      "behavior": "semantic completion",
+      "visual_role": "functional feedback",
+      "evidence": "V",
+      "notes": ""
+    },
+    {
+      "id": "CUR-001",
+      "name": "Optical pointer",
+      "reference_frame": 1695,
+      "bounds_xyxy": [
+        397,
+        305,
+        476,
+        386
+      ],
+      "geometry": "rounded tip, convex shoulder, concave return, lower lobe",
+      "material": "translucent blue-grey with violet and cyan rim",
+      "behavior": "independent translation and apparent orientation",
+      "visual_role": "agency",
+      "evidence": "E",
+      "notes": ""
+    },
+    {
+      "id": "OUT-001",
+      "name": "Butterfly-like accent",
+      "reference_frame": 1872,
+      "bounds_xyxy": null,
+      "geometry": "small organic lobes, uncertain identity",
+      "material": "warm pink/red",
+      "behavior": "independent translation and apparent orientation",
+      "visual_role": "emotional punctuation",
+      "evidence": "E",
+      "notes": ""
+    },
+    {
+      "id": "FN-001",
+      "name": "Navigation strip",
+      "reference_frame": null,
+      "bounds_xyxy": null,
+      "geometry": "white elongated substrate and active indicator",
+      "material": "source-dependent",
+      "behavior": "functional state or scene transition",
+      "visual_role": "functional narrative",
+      "evidence": "V",
+      "notes": "Family-level record; not exhaustive individual masks or per-object timing."
+    },
+    {
+      "id": "FN-002",
+      "name": "Calendar icon",
+      "reference_frame": null,
+      "bounds_xyxy": null,
+      "geometry": "calendar glyph",
+      "material": "source-dependent",
+      "behavior": "functional state or scene transition",
+      "visual_role": "functional narrative",
+      "evidence": "V",
+      "notes": "Family-level record; not exhaustive individual masks or per-object timing."
+    },
+    {
+      "id": "FN-003",
+      "name": "People icon",
+      "reference_frame": null,
+      "bounds_xyxy": null,
+      "geometry": "people glyph",
+      "material": "source-dependent",
+      "behavior": "functional state or scene transition",
+      "visual_role": "functional narrative",
+      "evidence": "V",
+      "notes": "Family-level record; not exhaustive individual masks or per-object timing."
+    },
+    {
+      "id": "FN-004",
+      "name": "Attachment icon",
+      "reference_frame": null,
+      "bounds_xyxy": null,
+      "geometry": "clip glyph",
+      "material": "source-dependent",
+      "behavior": "functional state or scene transition",
+      "visual_role": "functional narrative",
+      "evidence": "V",
+      "notes": "Family-level record; not exhaustive individual masks or per-object timing."
+    },
+    {
+      "id": "FN-005",
+      "name": "To Do",
+      "reference_frame": null,
+      "bounds_xyxy": null,
+      "geometry": "blue checkmark",
+      "material": "source-dependent",
+      "behavior": "functional state or scene transition",
+      "visual_role": "functional narrative",
+      "evidence": "V",
+      "notes": "Family-level record; not exhaustive individual masks or per-object timing."
+    },
+    {
+      "id": "FN-006",
+      "name": "Word",
+      "reference_frame": null,
+      "bounds_xyxy": null,
+      "geometry": "layered tile and W",
+      "material": "source-dependent",
+      "behavior": "functional state or scene transition",
+      "visual_role": "functional narrative",
+      "evidence": "V",
+      "notes": "Family-level record; not exhaustive individual masks or per-object timing."
+    },
+    {
+      "id": "FN-007",
+      "name": "Excel",
+      "reference_frame": null,
+      "bounds_xyxy": null,
+      "geometry": "layered tile and X",
+      "material": "source-dependent",
+      "behavior": "functional state or scene transition",
+      "visual_role": "functional narrative",
+      "evidence": "V",
+      "notes": "Family-level record; not exhaustive individual masks or per-object timing."
+    },
+    {
+      "id": "FN-008",
+      "name": "PowerPoint",
+      "reference_frame": null,
+      "bounds_xyxy": null,
+      "geometry": "layered tile and P",
+      "material": "source-dependent",
+      "behavior": "functional state or scene transition",
+      "visual_role": "functional narrative",
+      "evidence": "V",
+      "notes": "Family-level record; not exhaustive individual masks or per-object timing."
+    },
+    {
+      "id": "FN-009",
+      "name": "App launcher",
+      "reference_frame": null,
+      "bounds_xyxy": null,
+      "geometry": "outlined launcher",
+      "material": "source-dependent",
+      "behavior": "functional state or scene transition",
+      "visual_role": "functional narrative",
+      "evidence": "V",
+      "notes": "Family-level record; not exhaustive individual masks or per-object timing."
+    },
+    {
+      "id": "FN-010",
+      "name": "Separator",
+      "reference_frame": null,
+      "bounds_xyxy": null,
+      "geometry": "line",
+      "material": "source-dependent",
+      "behavior": "functional state or scene transition",
+      "visual_role": "functional narrative",
+      "evidence": "V",
+      "notes": "Family-level record; not exhaustive individual masks or per-object timing."
+    },
+    {
+      "id": "FN-011",
+      "name": "New Mail button",
+      "reference_frame": null,
+      "bounds_xyxy": null,
+      "geometry": "blue body, icon and label",
+      "material": "source-dependent",
+      "behavior": "functional state or scene transition",
+      "visual_role": "functional narrative",
+      "evidence": "V",
+      "notes": "Family-level record; not exhaustive individual masks or per-object timing."
+    },
+    {
+      "id": "FN-012",
+      "name": "Command groups",
+      "reference_frame": null,
+      "bounds_xyxy": null,
+      "geometry": "Delete, Archive, Sweep, Move To, replies, Quick Steps, categorise, pin, flag, clock",
+      "material": "source-dependent",
+      "behavior": "functional state or scene transition",
+      "visual_role": "functional narrative",
+      "evidence": "V",
+      "notes": "Family-level record; not exhaustive individual masks or per-object timing."
+    },
+    {
+      "id": "FN-013",
+      "name": "Terminal dropdown",
+      "reference_frame": null,
+      "bounds_xyxy": null,
+      "geometry": "chevron and supporting body",
+      "material": "source-dependent",
+      "behavior": "functional state or scene transition",
+      "visual_role": "functional narrative",
+      "evidence": "V",
+      "notes": "Family-level record; not exhaustive individual masks or per-object timing."
+    },
+    {
+      "id": "FN-014",
+      "name": "Inbox row",
+      "reference_frame": null,
+      "bounds_xyxy": null,
+      "geometry": "avatar, name, subject, preview, timestamp, category",
+      "material": "source-dependent",
+      "behavior": "functional state or scene transition",
+      "visual_role": "functional narrative",
+      "evidence": "V",
+      "notes": "Family-level record; not exhaustive individual masks or per-object timing."
+    },
+    {
+      "id": "FN-015",
+      "name": "Meeting context",
+      "reference_frame": null,
+      "bounds_xyxy": null,
+      "geometry": "Tomorrow 11 AM (30m), RSVP",
+      "material": "source-dependent",
+      "behavior": "functional state or scene transition",
+      "visual_role": "functional narrative",
+      "evidence": "V",
+      "notes": "Family-level record; not exhaustive individual masks or per-object timing."
+    },
+    {
+      "id": "FN-016",
+      "name": "Desktop",
+      "reference_frame": null,
+      "bounds_xyxy": null,
+      "geometry": "wallpaper, taskbar and window",
+      "material": "source-dependent",
+      "behavior": "functional state or scene transition",
+      "visual_role": "functional narrative",
+      "evidence": "V",
+      "notes": "Family-level record; not exhaustive individual masks or per-object timing."
+    },
+    {
+      "id": "FN-017",
+      "name": "Windows icon",
+      "reference_frame": null,
+      "bounds_xyxy": null,
+      "geometry": "four blue panes",
+      "material": "source-dependent",
+      "behavior": "functional state or scene transition",
+      "visual_role": "functional narrative",
+      "evidence": "V",
+      "notes": "Family-level record; not exhaustive individual masks or per-object timing."
+    },
+    {
+      "id": "FN-018",
+      "name": "Outlook taskbar icon",
+      "reference_frame": null,
+      "bounds_xyxy": null,
+      "geometry": "white support, blue envelope, indicator",
+      "material": "source-dependent",
+      "behavior": "functional state or scene transition",
+      "visual_role": "functional narrative",
+      "evidence": "V",
+      "notes": "Family-level record; not exhaustive individual masks or per-object timing."
+    },
+    {
+      "id": "FN-019",
+      "name": "Reading pane",
+      "reference_frame": null,
+      "bounds_xyxy": null,
+      "geometry": "Team Pictures, separate message cards",
+      "material": "source-dependent",
+      "behavior": "functional state or scene transition",
+      "visual_role": "functional narrative",
+      "evidence": "V",
+      "notes": "Family-level record; not exhaustive individual masks or per-object timing."
+    },
+    {
+      "id": "FN-020",
+      "name": "Sidebar",
+      "reference_frame": null,
+      "bounds_xyxy": null,
+      "geometry": "calendar/tasks",
+      "material": "source-dependent",
+      "behavior": "functional state or scene transition",
+      "visual_role": "functional narrative",
+      "evidence": "V",
+      "notes": "Family-level record; not exhaustive individual masks or per-object timing."
+    },
+    {
+      "id": "FN-021",
+      "name": "Pinning row",
+      "reference_frame": null,
+      "bounds_xyxy": null,
+      "geometry": "Charlotte Waltson Birthday Party",
+      "material": "source-dependent",
+      "behavior": "functional state or scene transition",
+      "visual_role": "functional narrative",
+      "evidence": "V",
+      "notes": "Family-level record; not exhaustive individual masks or per-object timing."
+    },
+    {
+      "id": "FN-022",
+      "name": "Pinned row",
+      "reference_frame": null,
+      "bounds_xyxy": null,
+      "geometry": "Wanda Howard",
+      "material": "source-dependent",
+      "behavior": "functional state or scene transition",
+      "visual_role": "functional narrative",
+      "evidence": "V",
+      "notes": "Family-level record; not exhaustive individual masks or per-object timing."
+    },
+    {
+      "id": "FN-023",
+      "name": "Collaborative table",
+      "reference_frame": null,
+      "bounds_xyxy": null,
+      "geometry": "Birthday Party Food & Drinks, Bringing/Invites/RSVP/Due by, avatars, green dots and dates",
+      "material": "source-dependent",
+      "behavior": "functional state or scene transition",
+      "visual_role": "functional narrative",
+      "evidence": "V",
+      "notes": "Family-level record; not exhaustive individual masks or per-object timing."
+    },
+    {
+      "id": "FN-024",
+      "name": "Calendar appointments",
+      "reference_frame": null,
+      "bounds_xyxy": null,
+      "geometry": "blue/magenta varied durations",
+      "material": "source-dependent",
+      "behavior": "functional state or scene transition",
+      "visual_role": "functional narrative",
+      "evidence": "V",
+      "notes": "Family-level record; not exhaustive individual masks or per-object timing."
+    },
+    {
+      "id": "FN-025",
+      "name": "Work location",
+      "reference_frame": null,
+      "bounds_xyxy": null,
+      "geometry": "Office and Remote dropdown",
+      "material": "source-dependent",
+      "behavior": "functional state or scene transition",
+      "visual_role": "functional narrative",
+      "evidence": "V",
+      "notes": "Family-level record; not exhaustive individual masks or per-object timing."
+    },
+    {
+      "id": "FN-026",
+      "name": "Board panels",
+      "reference_frame": null,
+      "bounds_xyxy": null,
+      "geometry": "calendar, birthday prep tasks, notes, image and map cards",
+      "material": "source-dependent",
+      "behavior": "functional state or scene transition",
+      "visual_role": "functional narrative",
+      "evidence": "V",
+      "notes": "Family-level record; not exhaustive individual masks or per-object timing."
+    },
+    {
+      "id": "FN-027",
+      "name": "Foreground exit",
+      "reference_frame": null,
+      "bounds_xyxy": null,
+      "geometry": "large overlapping blue/cyan slabs",
+      "material": "source-dependent",
+      "behavior": "functional state or scene transition",
+      "visual_role": "functional narrative",
+      "evidence": "V",
+      "notes": "Family-level record; not exhaustive individual masks or per-object timing."
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+shot_id,start_frame_inclusive,end_frame_inclusive,start_seconds,end_seconds,label,principal_objects,motion_summary,object_id_prefixes
+S01,0,53,0.0,1.767,Activation,switch and text,"accelerating enlargement, blue activation; internal imagery before entry",OP
+S02,54,164,1.8,5.467,Portal / tunnel,"nested capsule rims, suspended app icons, cyan slab, pointer","depth travel, occlusion, bright exit",TN
+S03,165,241,5.5,8.033,Light world assembly,"architecture, tray, swatches, typography, interface panels, avatars, sphere",centred scale-up; staggered object development; sphere delayed settling,ENV AR ST TY CT CL CR UI AV DC PC
+S04,242,419,8.067,13.967,Envelope and navigation,"blank disc, outline envelope, filled icon, long rail, app symbols",primitive-to-function; sub-components resolve in stages,ML FN
+S05,420,606,14.0,20.2,Command ribbon,"white ribbon, New Mail, command groups, pointer, cube cluster",progressive population; expanded/compact reflow independent of camera,RB FN
+S06,607,707,20.233,23.567,Email sheets,"Daisy Phillips, stacked flexible sheets, emojis, pencil cup and ribbons",individual sheet to stack; layered visibility and curvature,EM
+S07,708,845,23.6,28.167,Responsive inbox,"Daisy Yoga Workshop row, checkbox, Fun, RSVP, timestamps, other rows",constant width early; height reflow; blur and multiple row assembly,FN
+S08,846,1105,28.2,36.833,Desktop integration,"application, taskbar, Windows and Outlook icons, wallpaper, reading pane, sidebar","geometry then symbol, floating cards, context change",FN
+S09,1106,1154,36.867,38.467,Dark reveal,blue-black transitional bands and emerging window,abrupt dark intervening state; occlusion reveal,FN
+S10,1155,1289,38.5,42.967,Dark inbox interactions,"selected rows, pin/flag/delete, birthday message",selective state changes; reflow,FN CUR
+S11,1290,1320,43.0,44.0,Reaction palette,"six reactions, pointer, dark substrate","traveling scale wave, selection, disappearance",RX
+S12,1321,1412,44.033,47.067,Collaborative content and pinning,"Birthday Party Food & Drinks, Charlotte row, Wanda row",table interactions; collapse/reappear destination,FN CUR
+S13,1413,1589,47.1,52.967,Calendar,"appointments, work location Office/Remote, toolbar","multi-directional card population, stable grid",FN
+S14,1590,1732,53.0,57.733,Board and task,"task panel, notes, racing card, park map, completion circle",semantic completion; strikethrough draws,TK FN
+S15,1733,1779,57.767,59.3,Final dark world,"recurring environmental groups, luminous grid, application",withdrawal exposes props; local group continuity,ENV AR ST TY CT CL CR UI AV DC PC
+S16,1780,1830,59.333,61.0,Exit,"foreground slabs, tunnel, cloud-like element",occlusion and withdrawal,TN FN
+S17,1831,1912,61.033,63.733,Closing,"switch, CTA, butterfly-like accent, player overlays","portal resolves, switch shrinks, warm accent travels",OP OUT
